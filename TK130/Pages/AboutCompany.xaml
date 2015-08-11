@@ -8,8 +8,14 @@
              d:DesignHeight="300" d:DesignWidth="300">
 
     <Grid Style="{StaticResource ContentRoot}">
-        <ScrollViewer ContentStringFormat="" Margin="0,53,0,0">
-            <StackPanel MinWidth="200">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Image Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top" Source="{DynamicResource logo}" Margin="0,0,0,0">
+        </Image>
+        <ScrollViewer Grid.Column="1" ContentStringFormat="" Margin="0,0,0,0">
+            <StackPanel>                
                 <TextBlock Text="Агромашхолдинг" Style="{StaticResource Heading2}" />
                 <TextBlock TextWrapping="Wrap">ООО «Агромашхолдинг» – специализированная торгово-сервисная компания машиностроительно-индустриальной группы «Концерн «Тракторные заводы» (Machinery  Industrial Group N.V.), занимающаяся поставкой техники сельскохозяйственного назначения марки АГРОМАШ. «Агромашхолдинг» является одной из ведущих компаний России по техническому и технологическому перевооружению АПК современной техникой, а также прогрессивными машинно-тракторными агрегатами, образованными на базе энергосредств и оборудования, в том числе, в рамках совместных проектов с ведущими мировыми компаниями.
 
@@ -23,11 +29,7 @@
                 </TextBlock>
             </StackPanel>
         </ScrollViewer>
-        <Image HorizontalAlignment="Left" Source="/images/logo.png" Margin="0,-22,0,225" Height="53" VerticalAlignment="Bottom" Focusable="True" Panel.ZIndex="5">
-            <Image.Effect>
-                <BlurEffect/>
-            </Image.Effect>
-        </Image>
+        
 
     </Grid>
 </UserControl>
