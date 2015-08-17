@@ -8,9 +8,22 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Style="{StaticResource ContentRoot}">
         <!-- TODO: set @SelectedSource -->
-        <mui:ModernTab Layout="List">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="2.5*"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <mui:ModernTab Layout="List" Grid.Row="1">
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
+                <mui:Link DisplayName="Сибирский федеральный округ и Дальневосточный федеральный округ"/>
+                <mui:Link DisplayName="Item 2" />
+                <mui:Link DisplayName="Item 1" />
+                <mui:Link DisplayName="Item 2" />
+                <mui:Link DisplayName="Item 1" />
+                <mui:Link DisplayName="Item 2" />
+                <mui:Link DisplayName="Item 1" />
+                <mui:Link DisplayName="Item 2" />
                 <mui:Link DisplayName="Item 1" />
                 <mui:Link DisplayName="Item 2" />
             </mui:ModernTab.Links>

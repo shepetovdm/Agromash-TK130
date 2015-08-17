@@ -9,14 +9,12 @@
 
     <Grid Style="{StaticResource ContentRoot}">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Image Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top" Source="{DynamicResource logo}" Margin="0,0,0,0">
-        </Image>
-        <ScrollViewer Grid.Column="1" ContentStringFormat="" Margin="0,0,0,0">
-            <StackPanel>                
-                <TextBlock Text="Агромашхолдинг" Style="{StaticResource Heading2}" />
+        <ScrollViewer ContentStringFormat="" Grid.Column="1">
+            <StackPanel>
+                <TextBlock Text="Агромашхолдинг" HorizontalAlignment="Center" Style="{StaticResource Heading2}" />
                 <TextBlock TextWrapping="Wrap">ООО «Агромашхолдинг» – специализированная торгово-сервисная компания машиностроительно-индустриальной группы «Концерн «Тракторные заводы» (Machinery  Industrial Group N.V.), занимающаяся поставкой техники сельскохозяйственного назначения марки АГРОМАШ. «Агромашхолдинг» является одной из ведущих компаний России по техническому и технологическому перевооружению АПК современной техникой, а также прогрессивными машинно-тракторными агрегатами, образованными на базе энергосредств и оборудования, в том числе, в рамках совместных проектов с ведущими мировыми компаниями.
 
 Компания реализует технику производства: ООО “Волжский комбайновый завод”, ОАО “Тракторная компания “Волгоградский тракторный завод”, ОАО “ПО “Красноярский завод комбайнов”, ООО “Онежский тракторный завод”, VogelNoot (Австрия), ОАО “САРЭКС”, ОАО “Красноярский завод лесного машиностроения”.
@@ -29,7 +27,10 @@
                 </TextBlock>
             </StackPanel>
         </ScrollViewer>
-        
-
+        <StackPanel  MaxWidth="200" VerticalAlignment="Top">
+            <Image Grid.Column="0" Source="{DynamicResource combine}" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Image Grid.Column="0" Source="{DynamicResource tractor}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Image Grid.Column="0" Source="{DynamicResource plug}" VerticalAlignment="Center" HorizontalAlignment="Center"/>           
+        </StackPanel>
     </Grid>
 </UserControl>

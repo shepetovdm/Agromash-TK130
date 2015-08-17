@@ -9,6 +9,10 @@
                 <ResourceDictionary Source="/FirstFloor.ModernUI;component/Assets/ModernUI.Light.xaml"/>
             </ResourceDictionary.MergedDictionaries>
             <BitmapImage x:Key="logo" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\!Projects\VS\MIGParts\Amh\TK130\TK130\images\logo.png"/>
+            <BitmapImage x:Key="combine" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\!Projects\VS\MIGParts\Amh\TK130\TK130\combine.jpg"/>
+            <BitmapImage x:Key="tractor" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\!Projects\VS\MIGParts\Amh\TK130\TK130\tractor.jpg"/>
+            <BitmapImage x:Key="plug" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\!Projects\VS\MIGParts\Amh\TK130\TK130\plug.jpg"/>
+            <BitmapImage x:Key="Agromash-30TK" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\!Projects\VS\MIGParts\Amh\TK130\TK130\30ТК122-10.000.jpg"/>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
