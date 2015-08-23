@@ -12,21 +12,36 @@
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="2.5*"></RowDefinition>
         </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>                    
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <TextBlock></TextBlock>                
+        </StackPanel>                        
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Margin="3" HorizontalAlignment="Center">
+            <Expander Header="Сибирский федеральный округ и Дальневосточный федеральный округ" Margin="5" Foreground="OrangeRed">
+                <TextBlock Foreground="Black">                    
+                    Россия, 660049, г. Красноярск, ул. Профсоюзов, д.3, стр.2  <LineBreak/>Руководитель дирекции - Мартынушкин Иван Сергеевич <LineBreak/>тел.: (391) 259-58-32, сот.: 8-913-030-47-60
+<LineBreak/>e-mail: is.martinushkin@agromh.com
+                </TextBlock>
+                </Expander>
+            <Expander Header="Уральский федеральный округ" Margin="5">
+                    Россия, 428027, г. Чебоксары, ул. Хузангая, д. 26Б
+Зам. руководителя дирекции - Ростовцев Алексей Владимирович
+тел.: (8352) 30-43-34, сот.: 8-987-669-45-89
+e-mail: a.rostovcev@tplants.com
+                </Expander>
+            <Expander Header="Центральный федеральный округ" Margin="5"></Expander>
+            <Expander Header="Центральный федеральный округ" Margin="5"></Expander>
+            <Expander Header="Центральный федеральный округ" Margin="5"></Expander>
+            <Expander Header="Центральный федеральный округ" Margin="5">
+                Россия, 125000, ул. Дубнинская, д. 81А, стр.18
+Руководитель дирекции - Лукин Игорь Иванович
+тел.: (495) 580-70-10 доб. 201, сот.: 8-916-443-02-34
+e-mail: I_Lukin@agromh.com
+            </Expander>
+        </StackPanel>
         
-        <mui:ModernTab Layout="List" Grid.Row="1">
-            <mui:ModernTab.Links>
-                <!-- TODO: set @Source -->
-                <mui:Link DisplayName="Сибирский федеральный округ и Дальневосточный федеральный округ"/>
-                <mui:Link DisplayName="Item 2" />
-                <mui:Link DisplayName="Item 1" />
-                <mui:Link DisplayName="Item 2" />
-                <mui:Link DisplayName="Item 1" />
-                <mui:Link DisplayName="Item 2" />
-                <mui:Link DisplayName="Item 1" />
-                <mui:Link DisplayName="Item 2" />
-                <mui:Link DisplayName="Item 1" />
-                <mui:Link DisplayName="Item 2" />
-            </mui:ModernTab.Links>
-        </mui:ModernTab>
     </Grid>
 </UserControl>
