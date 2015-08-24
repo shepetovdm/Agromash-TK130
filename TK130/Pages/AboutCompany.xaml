@@ -28,9 +28,9 @@
             </StackPanel>
         </ScrollViewer>
         <StackPanel  MaxWidth="200" VerticalAlignment="Top">
-            <Image Grid.Column="0" Source="{DynamicResource combine}" VerticalAlignment="Center" HorizontalAlignment="Center" />
-            <Image Grid.Column="0" Source="{DynamicResource tractor}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            <Image Grid.Column="0" Source="{DynamicResource plug}" VerticalAlignment="Center" HorizontalAlignment="Center"/>           
+            <Image Grid.Column="0" Source="/images/combine.jpg" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <Image Grid.Column="0" Source="/images/tractor.jpg" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Image Grid.Column="0" Source="/images/plug.jpg" VerticalAlignment="Center" HorizontalAlignment="Center"/>           
         </StackPanel>
     </Grid>
 </UserControl>
