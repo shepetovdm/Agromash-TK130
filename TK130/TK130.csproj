@@ -27,6 +27,7 @@
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>effd3324</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -53,11 +54,30 @@
     <StartupObject>TK130.App</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="FirstFloor.ModernUI">
       <HintPath>..\packages\ModernUI.WPF.1.0.6\lib\net45\FirstFloor.ModernUI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.98.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.98.1\lib\net45\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.98.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.98.1\lib\net45\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.98.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.98.1\lib\net45\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -138,6 +158,80 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Docs\1000675.wrl" />
+    <None Include="Docs\1000676.wrl" />
+    <None Include="Docs\1033739.wrl" />
+    <None Include="Docs\1039522.wrl" />
+    <None Include="Docs\1039523.wrl" />
+    <None Include="Docs\104184.wrl" />
+    <None Include="Docs\104185.wrl" />
+    <None Include="Docs\1083701.wrl" />
+    <None Include="Docs\1083703.files\themedata.thmx" />
+    <None Include="Docs\1083743.wrl" />
+    <None Include="Docs\1083745.wrl" />
+    <None Include="Docs\1083747.wrl" />
+    <None Include="Docs\1083748.wrl" />
+    <None Include="Docs\1083783.wrl" />
+    <None Include="Docs\1083793.wrl" />
+    <None Include="Docs\1083808.wrl" />
+    <None Include="Docs\1083809.wrl" />
+    <None Include="Docs\1083818.wrl" />
+    <None Include="Docs\1083820.wrl" />
+    <None Include="Docs\1083821.wrl" />
+    <None Include="Docs\1083822.wrl" />
+    <None Include="Docs\1083823.wrl" />
+    <None Include="Docs\1083824.wrl" />
+    <None Include="Docs\1083825.wrl" />
+    <None Include="Docs\1083869.wrl" />
+    <None Include="Docs\1083883.wrl" />
+    <None Include="Docs\1089208.wrl" />
+    <None Include="Docs\165835.wrl" />
+    <None Include="Docs\165940.wrl" />
+    <None Include="Docs\167338.wrl" />
+    <None Include="Docs\168216.wrl" />
+    <None Include="Docs\168403.wrl" />
+    <None Include="Docs\169789.wrl" />
+    <None Include="Docs\170493.wrl" />
+    <None Include="Docs\174432.wrl" />
+    <None Include="Docs\176792.wrl" />
+    <None Include="Docs\22208.wrl" />
+    <None Include="Docs\255016.wrl" />
+    <None Include="Docs\26636.wrl" />
+    <None Include="Docs\3511.wrl" />
+    <None Include="Docs\391470.wrl" />
+    <None Include="Docs\545415.wrl" />
+    <None Include="Docs\545713.wrl" />
+    <None Include="Docs\546238.wrl" />
+    <None Include="Docs\546268.wrl" />
+    <None Include="Docs\546637.wrl" />
+    <None Include="Docs\546643.wrl" />
+    <None Include="Docs\546654.wrl" />
+    <None Include="Docs\546916.wrl" />
+    <None Include="Docs\547511.wrl" />
+    <None Include="Docs\547523.wrl" />
+    <None Include="Docs\547587.wrl" />
+    <None Include="Docs\547609.wrl" />
+    <None Include="Docs\547614.wrl" />
+    <None Include="Docs\547618.wrl" />
+    <None Include="Docs\548480.wrl" />
+    <None Include="Docs\548482.wrl" />
+    <None Include="Docs\549180.wrl" />
+    <None Include="Docs\549292.wrl" />
+    <None Include="Docs\549318.wrl" />
+    <None Include="Docs\549319.wrl" />
+    <None Include="Docs\549449.wrl" />
+    <None Include="Docs\549909.wrl" />
+    <None Include="Docs\672146.wrl" />
+    <None Include="Docs\69950.wrl" />
+    <None Include="Docs\757659.wrl" />
+    <None Include="Docs\76878.wrl" />
+    <None Include="Docs\907251.wrl" />
+    <None Include="Docs\94659.wrl" />
+    <None Include="Docs\999056.wrl" />
+    <None Include="Docs\res_PROMTRAKTOR_IPC\empty.cgm" />
+    <None Include="Docs\res_PROMTRAKTOR_IPC\hourglas.ani" />
+    <None Include="Docs\res_PROMTRAKTOR_IPC\start.wrl" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -172,7 +266,258 @@
     <Resource Include="images\plug.jpg" />
     <Resource Include="images\tractor.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Docs\1000675.htm" />
+    <Content Include="Docs\1000675.interactivity.xml" />
+    <Content Include="Docs\1000676.htm" />
+    <Content Include="Docs\1000676.interactivity.xml" />
+    <Content Include="Docs\1033739.htm" />
+    <Content Include="Docs\1033739.interactivity.xml" />
+    <Content Include="Docs\1039522.htm" />
+    <Content Include="Docs\1039522.interactivity.xml" />
+    <Content Include="Docs\1039523.htm" />
+    <Content Include="Docs\1039523.interactivity.xml" />
+    <Content Include="Docs\104184.htm" />
+    <Content Include="Docs\104184.interactivity.xml" />
+    <Content Include="Docs\104185.htm" />
+    <Content Include="Docs\104185.interactivity.xml" />
+    <Content Include="Docs\1083701.htm" />
+    <Content Include="Docs\1083701.interactivity.xml" />
+    <Content Include="Docs\1083703.files\colorschememapping.xml" />
+    <Content Include="Docs\1083703.files\filelist.xml" />
+    <Content Include="Docs\1083703.files\header.htm" />
+    <Content Include="Docs\1083703.files\image001.jpg" />
+    <Content Include="Docs\1083703.files\image002.jpg" />
+    <Content Include="Docs\1083703.files\image003.jpg" />
+    <Content Include="Docs\1083703.files\image004.jpg" />
+    <Content Include="Docs\1083703.files\image005.jpg" />
+    <Content Include="Docs\1083703.files\image006.jpg" />
+    <Content Include="Docs\1083703.files\image007.png" />
+    <Content Include="Docs\1083703.files\image008.png" />
+    <Content Include="Docs\1083703.files\image009.png" />
+    <Content Include="Docs\1083703.files\image010.png" />
+    <Content Include="Docs\1083703.files\image011.png" />
+    <Content Include="Docs\1083703.files\image012.png" />
+    <Content Include="Docs\1083703.files\image013.png" />
+    <Content Include="Docs\1083703.files\image014.png" />
+    <Content Include="Docs\1083703.files\image015.jpg" />
+    <Content Include="Docs\1083703.files\image016.jpg" />
+    <Content Include="Docs\1083703.files\image017.png" />
+    <Content Include="Docs\1083703.files\image018.png" />
+    <Content Include="Docs\1083703.files\image019.jpg" />
+    <Content Include="Docs\1083703.files\image020.jpg" />
+    <Content Include="Docs\1083703.files\item0027.xml" />
+    <Content Include="Docs\1083703.files\props028.xml" />
+    <Content Include="Docs\1083703.htm" />
+    <Content Include="Docs\1083743.htm" />
+    <Content Include="Docs\1083743.interactivity.xml" />
+    <Content Include="Docs\1083745.htm" />
+    <Content Include="Docs\1083745.interactivity.xml" />
+    <Content Include="Docs\1083747.htm" />
+    <Content Include="Docs\1083747.interactivity.xml" />
+    <Content Include="Docs\1083748.htm" />
+    <Content Include="Docs\1083748.interactivity.xml" />
+    <Content Include="Docs\1083783.htm" />
+    <Content Include="Docs\1083783.interactivity.xml" />
+    <Content Include="Docs\1083793.htm" />
+    <Content Include="Docs\1083793.interactivity.xml" />
+    <Content Include="Docs\1083808.htm" />
+    <Content Include="Docs\1083808.interactivity.xml" />
+    <Content Include="Docs\1083809.htm" />
+    <Content Include="Docs\1083809.interactivity.xml" />
+    <Content Include="Docs\1083818.htm" />
+    <Content Include="Docs\1083818.interactivity.xml" />
+    <Content Include="Docs\1083820.htm" />
+    <Content Include="Docs\1083820.interactivity.xml" />
+    <Content Include="Docs\1083821.htm" />
+    <Content Include="Docs\1083821.interactivity.xml" />
+    <Content Include="Docs\1083822.htm" />
+    <Content Include="Docs\1083822.interactivity.xml" />
+    <Content Include="Docs\1083823.htm" />
+    <Content Include="Docs\1083823.interactivity.xml" />
+    <Content Include="Docs\1083824.htm" />
+    <Content Include="Docs\1083824.interactivity.xml" />
+    <Content Include="Docs\1083825.htm" />
+    <Content Include="Docs\1083825.interactivity.xml" />
+    <Content Include="Docs\1083869.htm" />
+    <Content Include="Docs\1083869.interactivity.xml" />
+    <Content Include="Docs\1083883.htm" />
+    <Content Include="Docs\1083883.interactivity.xml" />
+    <Content Include="Docs\1089208.htm" />
+    <Content Include="Docs\1089208.interactivity.xml" />
+    <Content Include="Docs\165835.htm" />
+    <Content Include="Docs\165835.interactivity.xml" />
+    <Content Include="Docs\165940.htm" />
+    <Content Include="Docs\165940.interactivity.xml" />
+    <Content Include="Docs\167338.htm" />
+    <Content Include="Docs\167338.interactivity.xml" />
+    <Content Include="Docs\168216.htm" />
+    <Content Include="Docs\168216.interactivity.xml" />
+    <Content Include="Docs\168403.htm" />
+    <Content Include="Docs\168403.interactivity.xml" />
+    <Content Include="Docs\169789.htm" />
+    <Content Include="Docs\169789.interactivity.xml" />
+    <Content Include="Docs\170493.htm" />
+    <Content Include="Docs\170493.interactivity.xml" />
+    <Content Include="Docs\174432.htm" />
+    <Content Include="Docs\174432.interactivity.xml" />
+    <Content Include="Docs\176792.htm" />
+    <Content Include="Docs\176792.interactivity.xml" />
+    <Content Include="Docs\22208.htm" />
+    <Content Include="Docs\22208.interactivity.xml" />
+    <Content Include="Docs\255016.htm" />
+    <Content Include="Docs\255016.interactivity.xml" />
+    <Content Include="Docs\26636.htm" />
+    <Content Include="Docs\26636.interactivity.xml" />
+    <Content Include="Docs\3511.htm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Docs\3511.interactivity.xml" />
+    <Content Include="Docs\391470.htm" />
+    <Content Include="Docs\391470.interactivity.xml" />
+    <Content Include="Docs\545415.htm" />
+    <Content Include="Docs\545415.interactivity.xml" />
+    <Content Include="Docs\545713.htm" />
+    <Content Include="Docs\545713.interactivity.xml" />
+    <Content Include="Docs\546238.htm" />
+    <Content Include="Docs\546238.interactivity.xml" />
+    <Content Include="Docs\546268.htm" />
+    <Content Include="Docs\546268.interactivity.xml" />
+    <Content Include="Docs\546637.htm" />
+    <Content Include="Docs\546637.interactivity.xml" />
+    <Content Include="Docs\546643.htm" />
+    <Content Include="Docs\546643.interactivity.xml" />
+    <Content Include="Docs\546654.htm" />
+    <Content Include="Docs\546654.interactivity.xml" />
+    <Content Include="Docs\546916.htm" />
+    <Content Include="Docs\546916.interactivity.xml" />
+    <Content Include="Docs\547511.htm" />
+    <Content Include="Docs\547511.interactivity.xml" />
+    <Content Include="Docs\547523.htm" />
+    <Content Include="Docs\547523.interactivity.xml" />
+    <Content Include="Docs\547587.htm" />
+    <Content Include="Docs\547587.interactivity.xml" />
+    <Content Include="Docs\547609.htm" />
+    <Content Include="Docs\547609.interactivity.xml" />
+    <Content Include="Docs\547614.htm" />
+    <Content Include="Docs\547614.interactivity.xml" />
+    <Content Include="Docs\547618.htm" />
+    <Content Include="Docs\547618.interactivity.xml" />
+    <Content Include="Docs\548480.htm" />
+    <Content Include="Docs\548480.interactivity.xml" />
+    <Content Include="Docs\548482.htm" />
+    <Content Include="Docs\548482.interactivity.xml" />
+    <Content Include="Docs\549180.htm" />
+    <Content Include="Docs\549180.interactivity.xml" />
+    <Content Include="Docs\549292.htm" />
+    <Content Include="Docs\549292.interactivity.xml" />
+    <Content Include="Docs\549318.htm" />
+    <Content Include="Docs\549318.interactivity.xml" />
+    <Content Include="Docs\549319.htm" />
+    <Content Include="Docs\549319.interactivity.xml" />
+    <Content Include="Docs\549449.htm" />
+    <Content Include="Docs\549449.interactivity.xml" />
+    <Content Include="Docs\549909.htm" />
+    <Content Include="Docs\549909.interactivity.xml" />
+    <Content Include="Docs\672146.htm" />
+    <Content Include="Docs\672146.interactivity.xml" />
+    <Content Include="Docs\69950.htm" />
+    <Content Include="Docs\69950.interactivity.xml" />
+    <Content Include="Docs\757659.htm" />
+    <Content Include="Docs\757659.interactivity.xml" />
+    <Content Include="Docs\76878.htm" />
+    <Content Include="Docs\76878.interactivity.xml" />
+    <Content Include="Docs\907251.htm" />
+    <Content Include="Docs\907251.interactivity.xml" />
+    <Content Include="Docs\94659.htm" />
+    <Content Include="Docs\94659.interactivity.xml" />
+    <Content Include="Docs\999056.htm" />
+    <Content Include="Docs\999056.interactivity.xml" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\background.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\boxes.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\boxhide.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\boxnone.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\boxpartial.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\boxshow.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\btn_2d.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\btn_basket.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\btn_callouts.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\btn_center.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\btn_excel.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\btn_exp3d.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\btn_fit.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\btn_goto.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\btn_help.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\btn_ignore_tr.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\btn_print3d.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\btn_printc.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\btn_printt.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\btn_reset.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\btn_skip_anim.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\generic_ipc_prn.css" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\generic_ipc_scr.css" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ipc3d.js" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\logo.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\nxptable.js" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\help.html" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_2D_Graphics.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_3D_Print.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Back.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Bottom.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Callouts.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Center.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Center_Hide.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Excel.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Fit.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Front.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Hand.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Help.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Home.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Ignore_Transparent.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Isometric.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Left.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Pan.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Print_Table.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Reset.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Right.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Show_3DOnly.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Skip_Animation.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Spin.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Top.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_Zoom.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_ZoomIn.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\But_ZoomOut.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\Callout_bar.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\Check_Cleared.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\Check_Crossed.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\Check_Null.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\Check_Selected.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\Check_Selected_Semihidden.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\note1.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\note2.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\ru\images\PublishProject1.png" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\sbtn_pan.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\sbtn_spin.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\sbtn_zoom.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\topline.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\v1.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\v2.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\v3.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\v4.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\v5.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\v6.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\v7.gif" />
+    <Content Include="Docs\res_PROMTRAKTOR_IPC\xptable.js" />
+    <Content Include="Docs\Search\style.css" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.98.1\build\net45\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.98.1\build\net45\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Включите восстановление пакетов NuGet, чтобы загрузить их. Дополнительные сведения см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.98.1\build\net45\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.98.1\build\net45\System.Data.SQLite.Core.targets'))" />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

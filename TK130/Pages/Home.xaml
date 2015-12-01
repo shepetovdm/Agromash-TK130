@@ -5,6 +5,25 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
-    
+    <StackPanel>
+        <ComboBox Name="CmbTables">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Path=TABLE_NAME}"/>
+                    </StackPanel>
+
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <Button Height="23" HorizontalAlignment="Left" Name="BtnSelectTable" VerticalAlignment="Top" Width="75" Click="BtnSelectTable_Click">Ok</Button>
+
+        <WebBrowser Name="wbSample" Height="200">
+            
+        </WebBrowser>
+
+        <DataGrid Margin="0,0,0,0" Name="dataGrid1" RowHeaderWidth="30" CanUserResizeRows="False" SelectionChanged="dataGrid1_SelectionChanged">
+        </DataGrid>
+    </StackPanel>
 </UserControl>
     
