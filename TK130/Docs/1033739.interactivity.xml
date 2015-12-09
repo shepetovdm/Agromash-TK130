@@ -1,0 +1,3353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ipc>
+	<figure>
+		<metadata/>
+		<media id="1" type="vm/vrml" src="1033739.wrl">
+			<value name="2DHighLightColor">#00FF00</value>
+			<value name="2DSelectedColor">#FFFF00</value>
+			<value name="3DBackgroundColor">#FFFFFF</value>
+			<value name="3DSelectedColor">#FF0000</value>
+			<value name="ContextMenuBackgroundColor">#FFFFFF</value>
+			<value name="CoordinateResolution">0</value>
+			<value name="IllustrationType">0</value>
+			<value name="RemoveSpace">No</value>
+			<value name="SimplifyFloats">No</value>
+			<value name="TableBackgroundColor">#FFFFFF</value>
+			<value name="TableBackgroundColorHL">#C8E2E2</value>
+			<value name="TableBackgroundColorHLNotIll">#FF0000</value>
+			<value name="TableBackgroundColorSel">#EEEE00</value>
+			<value name="TableInactiveTextColor">#808080</value>
+			<value name="TableTextColor">#000000</value>
+			<value name="TooltipFormat">%[ITEM]</value>
+			<value name="Viewer2DType">1</value>
+			<value name="UseTextCodes">No</value>
+			<value name="jsMoreInfo">window.showModalDialog("index.php?type=product_details&amp;no="+NOMENCLATURE_NUMBER, 0, "dialogWidth:400px; dialogHeight:250px; resizable:No; help: No; scroll:No; status:No;");</value>
+			<value name="jsShowCart">window.showModalDialog("index.php?type=cart", 0, "help: No; scroll:No; status:No;");</value>
+			<value name="jsAddToCart">window.showModalDialog("index.php?type=cart&amp;n1="+NOMENCLATURE_NUMBER, 0, "help: No; scroll:No; status:No;");</value>
+			<value name="jsAddSelectedToCart">var s = "index.php?type=cart"; for(var i=1; i&lt;=SELECTED_NUMBERS.length; i++){s+="&amp;n"+i+"="+SELECTED_NUMBERS[i-1];} window.showModalDialog(s, 0, "help: No; scroll:No; status:No;");</value>
+			<value name="PublisherVersion">6.1.0.295</value>
+			<value name="SpecID">PROMTRAKTOR_IPC</value>
+			<value name="SpecVersion">1.9</value>
+		</media>
+		<dplist>
+			<item id="18a45128" refPart="b406f68">
+				<metadata>
+					<value id="18fbda90" name="Позиция" decl-id="ITEM" changed="0"/>
+					<value id="18fbdad8" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[1]]>
+					</value>
+					<value id="18fbdb20" name="Количество" decl-id="QNA" changed="0"/>
+				</metadata>
+				<tooltip/>
+				<commands>
+					<command id="11882658" type="DFP" changed="0">
+						<value refMeta="18fbdad8" name="Отступ">
+							<![CDATA[1]]>
+						</value>
+						<value refMeta="25fbe90" name="Описание изделия">
+							<![CDATA[Дверь]]>
+						</value>
+					</command>
+					<command id="118823d8" type="REF" changed="0">
+						<value name="КАТАЛОГ">
+							<![CDATA[1083820]]>
+						</value>
+						<value name="КОММЕНТАРИЙ">
+							<![CDATA[85ТКФ.45.001-10 Кабина-СВУ]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">Основная_200</refmedia>
+			</item>
+			<item id="18a46f58" refPart="b409240">
+				<metadata>
+					<value id="18fbdb68" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[1]]>
+					</value>
+					<value id="18fbdbb0" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbdbf8" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[1]]>
+				</tooltip>
+				<commands>
+					<command id="11882218" type="DFP" changed="0">
+						<value refMeta="18fbdbb0" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="25fbf20" name="Описание изделия">
+							<![CDATA[Каркас двери]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">SZ-DOOR-RAIL-RH_ASM_asm;0;523:_35</refmedia>
+			</item>
+			<item id="18a449f0" refPart="b409560">
+				<metadata>
+					<value id="18fbdc40" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbdc88" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbdcd0" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[2]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[2]]>
+				</tooltip>
+				<commands>
+					<command id="118821d8" type="DFP" changed="0">
+						<value refMeta="18fbdc88" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="25fbff8" name="Описание изделия">
+							<![CDATA[Винт]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_25010_part;22076;558:_37</refmedia>
+				<refmedia ref="1">_25010_part;22076;560:_39</refmedia>
+			</item>
+			<item id="18a47118" refPart="b408ed0">
+				<metadata>
+					<value id="18fbdd18" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[3]]>
+					</value>
+					<value id="18fbdd60" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbdda8" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[3]]>
+				</tooltip>
+				<commands>
+					<command id="11882298" type="DFP" changed="0">
+						<value refMeta="18fbdd60" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="25fc160" name="Описание изделия">
+							<![CDATA[Стекло двери]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_24468_part;1088;662:_166</refmedia>
+			</item>
+			<item id="18a45048" refPart="b407698">
+				<metadata>
+					<value id="18fbddf0" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[4]]>
+					</value>
+					<value id="18fbde38" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbde80" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[4]]>
+				</tooltip>
+				<commands>
+					<command id="11881558" type="DFP" changed="0">
+						<value refMeta="18fbde38" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="25fc1a8" name="Описание изделия">
+							<![CDATA[Прокладка]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">DOOR-RUBBER_part;26260;658:_162</refmedia>
+			</item>
+			<item id="18a45d30" refPart="b408de0">
+				<metadata>
+					<value id="18fbdec8" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[5]]>
+					</value>
+					<value id="18fbdf10" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbdf58" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[4]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[5]]>
+				</tooltip>
+				<commands>
+					<command id="11881f98" type="DFP" changed="0">
+						<value refMeta="18fbdf10" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="25fc310" name="Описание изделия">
+							<![CDATA[Шайба уплотнительная]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_18747_part;16160;647:_148</refmedia>
+				<refmedia ref="1">_18747_part;16160;649:_150</refmedia>
+				<refmedia ref="1">_18747_part;16160;650:_152</refmedia>
+				<refmedia ref="1">_18747_part;16160;651:_154</refmedia>
+			</item>
+			<item id="18a478f8" refPart="b406608">
+				<metadata>
+					<value id="18fbdfa0" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[6]]>
+					</value>
+					<value id="18fbdfe8" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbe030" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[4]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[6]]>
+				</tooltip>
+				<commands>
+					<command id="11881698" type="DFP" changed="0">
+						<value refMeta="18fbdfe8" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="25fc3e8" name="Описание изделия">
+							<![CDATA[Втулка уплотнительная]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_62263_part;7359;642:_140</refmedia>
+				<refmedia ref="1">_62263_part;7359;644:_142</refmedia>
+				<refmedia ref="1">_62263_part;7359;645:_144</refmedia>
+				<refmedia ref="1">_62263_part;7359;646:_146</refmedia>
+			</item>
+			<item id="18a47f88" refPart="b407ee0">
+				<metadata>
+					<value id="18fbe078" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[7]]>
+					</value>
+					<value id="18fbe0c0" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbe108" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[4]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[7]]>
+				</tooltip>
+				<commands>
+					<command id="11881b18" type="DFP" changed="0">
+						<value refMeta="18fbe0c0" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="25fc550" name="Описание изделия">
+							<![CDATA[Шайба уплотнительная]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_62264_part;27337;637:_132</refmedia>
+				<refmedia ref="1">_62264_part;27337;639:_134</refmedia>
+				<refmedia ref="1">_62264_part;27337;640:_136</refmedia>
+				<refmedia ref="1">_62264_part;27337;641:_138</refmedia>
+			</item>
+			<item id="18a47460" refPart="b407508">
+				<metadata>
+					<value id="18fbe150" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[8]]>
+					</value>
+					<value id="18fbe198" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbe1e0" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[8]]>
+				</tooltip>
+				<commands>
+					<command id="118826d8" type="DFP" changed="0">
+						<value refMeta="18fbe198" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="25fc598" name="Описание изделия">
+							<![CDATA[Шайба]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_20814_part;17510;588:_73</refmedia>
+			</item>
+			<item id="18a469a8" refPart="b4086d8">
+				<metadata>
+					<value id="18fbe228" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[9]]>
+					</value>
+					<value id="18fbe270" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbe2b8" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[9]]>
+				</tooltip>
+				<commands>
+					<command id="11882198" type="DFP" changed="0">
+						<value refMeta="18fbe270" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="25fc670" name="Описание изделия">
+							<![CDATA[Пластина резьбовая]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_35835_part;2852;585:_71</refmedia>
+			</item>
+			<item id="18a46f20" refPart="b409970">
+				<metadata>
+					<value id="18fbe300" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[10]]>
+					</value>
+					<value id="18fbe348" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbe390" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[2]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[10]]>
+				</tooltip>
+				<commands>
+					<command id="11882bd8" type="DFP" changed="0">
+						<value refMeta="18fbe348" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="25fc748" name="Описание изделия">
+							<![CDATA[Шайба]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_24790_part;2354;590:_75</refmedia>
+				<refmedia ref="1">_24790_part;2354;592:_77</refmedia>
+			</item>
+			<item id="18a48458" refPart="b406068">
+				<metadata>
+					<value id="18fbe3d8" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[11]]>
+					</value>
+					<value id="18fbe420" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbe468" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[4]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[11]]>
+				</tooltip>
+				<commands>
+					<command id="11881418" type="DFP" changed="0">
+						<value refMeta="18fbe420" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="25fc088" name="Описание изделия">
+							<![CDATA[Втулка уплотнительная]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_25076_part;26125;564:_45</refmedia>
+				<refmedia ref="1">_25076_part;26125;566:_47</refmedia>
+				<refmedia ref="1">_25076_part;26125;567:_49</refmedia>
+				<refmedia ref="1">_25076_part;26125;568:_51</refmedia>
+			</item>
+			<item id="18a47ea8" refPart="b408688">
+				<metadata>
+					<value id="18fbe4b0" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[12]]>
+					</value>
+					<value id="18fbe4f8" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbe540" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[2]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[12]]>
+				</tooltip>
+				<commands>
+					<command id="b465e18" type="DFP" changed="0">
+						<value refMeta="18fbe4f8" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="25fbe00" name="Описание изделия">
+							<![CDATA[Шайба уплотнительная]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_07256_part;15053;561:_41</refmedia>
+				<refmedia ref="1">_07256_part;15053;563:_43</refmedia>
+			</item>
+			<item id="18a45a58" refPart="b4086b0">
+				<metadata>
+					<value id="18fbe588" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[13]]>
+					</value>
+					<value id="18fbe5d0" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbe618" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[4]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[13]]>
+				</tooltip>
+				<commands>
+					<command id="118817d8" type="DFP" changed="0">
+						<value refMeta="18fbe5d0" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="25fbbc0" name="Описание изделия">
+							<![CDATA[Шпилька]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">DIN976-M10X40_part;30314;580:_65</refmedia>
+				<refmedia ref="1">DIN976-M10X40_part;30314;582:_67</refmedia>
+				<refmedia ref="1">DIN976-M10X40_part;30314;576:_61</refmedia>
+				<refmedia ref="1">DIN976-M10X40_part;30314;577:_63</refmedia>
+			</item>
+			<item id="18a46c48" refPart="b408d68">
+				<metadata>
+					<value id="18fbe660" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[14]]>
+					</value>
+					<value id="18fbe6a8" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbe6f0" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[14]]>
+				</tooltip>
+				<commands>
+					<command id="b466318" type="DFP" changed="0">
+						<value refMeta="18fbe6a8" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="25fbc08" name="Описание изделия">
+							<![CDATA[Петля]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_24809_part;28800;655:_160</refmedia>
+			</item>
+			<item id="18a47310" refPart="b407ad0">
+				<metadata>
+					<value id="18fbe738" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[15]]>
+					</value>
+					<value id="18fbe780" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbe7c8" name="Количество" decl-id="QNA" changed="0"/>
+				</metadata>
+				<tooltip>
+					<![CDATA[15]]>
+				</tooltip>
+				<commands>
+					<command id="b4658d8" type="DFP" changed="0">
+						<value refMeta="18fbe780" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e90230" name="Описание изделия">
+							<![CDATA[Петля]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_24808_part;19834;652:_157</refmedia>
+			</item>
+			<item id="18a470e0" refPart="b407cb0">
+				<metadata>
+					<value id="18fbe810" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[16]]>
+					</value>
+					<value id="18fbe858" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbe8a0" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[2]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[16]]>
+				</tooltip>
+				<commands>
+					<command id="b465d58" type="DFP" changed="0">
+						<value refMeta="18fbe858" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="25fba10" name="Описание изделия">
+							<![CDATA[Шпилька]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_5ТКФ_45_1008_part;32678;396:_180</refmedia>
+				<refmedia ref="1">_5ТКФ_45_1008_part;32678;396:_199</refmedia>
+			</item>
+			<item id="18a45e80" refPart="b407878">
+				<metadata>
+					<value id="18fbe8e8" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[17]]>
+					</value>
+					<value id="18fbe930" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbe978" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[4]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[17]]>
+				</tooltip>
+				<commands>
+					<command id="b466418" type="DFP" changed="0">
+						<value refMeta="18fbe930" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e9b828" name="Описание изделия">
+							<![CDATA[Колпачок М8]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_11561_part;16877;593:_79</refmedia>
+				<refmedia ref="1">_11561_part;16877;595:_81</refmedia>
+				<refmedia ref="1">_11561_part;16877;596:_83</refmedia>
+				<refmedia ref="1">_11561_part;16877;597:_85</refmedia>
+			</item>
+			<item id="18a47850" refPart="b4087a0">
+				<metadata>
+					<value id="18fbe9c0" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[18]]>
+					</value>
+					<value id="18fbea08" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbea50" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[18]]>
+				</tooltip>
+				<commands>
+					<command id="b465bd8" type="DFP" changed="0">
+						<value refMeta="18fbea08" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e91e50" name="Описание изделия">
+							<![CDATA[Винт М6-6gх20.109.40Х.019 ГОСТ 11738-84]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">Винт_М6х20_ГОСТ_17473-80_part;29930;668:_171</refmedia>
+			</item>
+			<item id="18a463c0" refPart="b406c70">
+				<metadata>
+					<value id="18fbea98" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[19]]>
+					</value>
+					<value id="18fbeae0" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbeb28" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[19]]>
+				</tooltip>
+				<commands>
+					<command id="1e0902e0" type="DFP" changed="0">
+						<value refMeta="18fbeae0" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e85fe8" name="Описание изделия">
+							<![CDATA[Винт В.М6-6gх25.58.019 ГОСТ 17473-80]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">Винт_М6х25_ГОСТ_17473-80_part;4436;670:_174</refmedia>
+			</item>
+			<item id="18a45400" refPart="b405f50">
+				<metadata>
+					<value id="18fbeb70" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[20]]>
+					</value>
+					<value id="18fbebb8" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbec00" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[20]]>
+				</tooltip>
+				<commands>
+					<command id="1e08fda0" type="DFP" changed="0">
+						<value refMeta="18fbebb8" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e86078" name="Описание изделия">
+							<![CDATA[Винт В.М4-6gх16.58.С.016 ГОСТ 17475-80]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_1000350944000_part;22518;672:_177</refmedia>
+			</item>
+			<item id="18a46b30" refPart="b405fc8">
+				<metadata>
+					<value id="18fbec48" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[21]]>
+					</value>
+					<value id="18fbec90" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbecd8" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[2]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[21]]>
+				</tooltip>
+				<commands>
+					<command id="1e08fba0" type="DFP" changed="0">
+						<value refMeta="18fbec90" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e93e18" name="Описание изделия">
+							<![CDATA[Винт В.М8-6gх35.58.019 ГОСТ 17475-80]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_17887_part;29033;619:_107</refmedia>
+				<refmedia ref="1">_17887_part;29033;617:_105</refmedia>
+			</item>
+			<item id="18a454e0" refPart="b406950">
+				<metadata>
+					<value id="18fbed20" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[22]]>
+					</value>
+					<value id="18fbed68" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbedb0" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[4]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[22]]>
+				</tooltip>
+				<commands>
+					<command id="1e08f8a0" type="DFP" changed="0">
+						<value refMeta="18fbed68" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e82520" name="Описание изделия">
+							<![CDATA[Гайка М8-6Н.6.019 ГОСТ 5915-70]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_18429_part;22540;598:_87</refmedia>
+				<refmedia ref="1">_18429_part;22540;600:_89</refmedia>
+				<refmedia ref="1">_18429_part;22540;601:_91</refmedia>
+				<refmedia ref="1">_18429_part;22540;602:_93</refmedia>
+			</item>
+			<item id="18a47038" refPart="b4064f0">
+				<metadata>
+					<value id="18fbedf8" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[23]]>
+					</value>
+					<value id="18fbee40" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbee88" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[4]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[23]]>
+				</tooltip>
+				<commands>
+					<command id="1e090260" type="DFP" changed="0">
+						<value refMeta="18fbee40" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e9f530" name="Описание изделия">
+							<![CDATA[Гайка М10-6Н.6.019 ГОСТ 5917-70]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">DIN934-M10_part;15053;569:_53</refmedia>
+				<refmedia ref="1">DIN934-M10_part;15053;571:_55</refmedia>
+				<refmedia ref="1">DIN934-M10_part;15053;572:_57</refmedia>
+				<refmedia ref="1">DIN934-M10_part;15053;573:_59</refmedia>
+			</item>
+			<item id="18a46970" refPart="b409ce0">
+				<metadata>
+					<value id="18fbeed0" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[24]]>
+					</value>
+					<value id="18fbef18" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbef60" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[2]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[24]]>
+				</tooltip>
+				<commands>
+					<command id="1e090020" type="DFP" changed="0">
+						<value refMeta="18fbef18" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e9f608" name="Описание изделия">
+							<![CDATA[Шайба 8Т.65Г.019 ГОСТ 6402-70]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_1000310250100_part;22082;509:_182</refmedia>
+				<refmedia ref="1">_1000310250100_part;22082;507:_194</refmedia>
+			</item>
+			<item id="18a462e0" refPart="b407af8">
+				<metadata>
+					<value id="18fbefa8" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[25]]>
+					</value>
+					<value id="18fbeff0" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbf038" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[25]]>
+				</tooltip>
+				<commands>
+					<command id="1e08fbe0" type="DFP" changed="0">
+						<value refMeta="18fbeff0" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e9f6e0" name="Описание изделия">
+							<![CDATA[Шайба А.6.01.019 ГОСТ 11371-78]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_17761_part;24880;623:_115</refmedia>
+			</item>
+			<item id="18a47150" refPart="b406978">
+				<metadata>
+					<value id="18fbf080" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[26]]>
+					</value>
+					<value id="18fbf0c8" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbf110" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[4]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[26]]>
+				</tooltip>
+				<commands>
+					<command id="1e08fea0" type="DFP" changed="0">
+						<value refMeta="18fbf0c8" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e8fd68" name="Описание изделия">
+							<![CDATA[Шайба А.8.02.019 ГОСТ 11371-78]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_18357_part;4811;608:_95</refmedia>
+				<refmedia ref="1">_18357_part;4811;610:_97</refmedia>
+				<refmedia ref="1">_18357_part;4811;611:_99</refmedia>
+				<refmedia ref="1">_18357_part;4811;612:_101</refmedia>
+			</item>
+			<item id="18a44c20" refPart="b406040">
+				<metadata>
+					<value id="18fbf158" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[27]]>
+					</value>
+					<value id="18fbf1a0" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbf1e8" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[4]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[27]]>
+				</tooltip>
+				<commands>
+					<command id="1e090660" type="DFP" changed="0">
+						<value refMeta="18fbf1a0" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e93878" name="Описание изделия">
+							<![CDATA[Шайба А.10.02.019 ГОСТ 11371-78]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_14839_part;27337;632:_124</refmedia>
+				<refmedia ref="1">_14839_part;27337;634:_126</refmedia>
+				<refmedia ref="1">_14839_part;27337;635:_128</refmedia>
+				<refmedia ref="1">_14839_part;27337;636:_130</refmedia>
+			</item>
+			<item id="18a44b08" refPart="b408278">
+				<metadata>
+					<value id="18fbf230" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[28]]>
+					</value>
+					<value id="18fbf278" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbf2c0" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[4,1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[28]]>
+				</tooltip>
+				<commands>
+					<command id="1e00da68" type="DFP" changed="0">
+						<value refMeta="18fbf278" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e876b0" name="Описание изделия">
+							<![CDATA[Профиль уплотнительный]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">CTP01-506396-DOOR-RH_part;14638;660:_164</refmedia>
+			</item>
+			<item id="18a448a0" refPart="b409128">
+				<metadata>
+					<value id="18fbf308" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[29]]>
+					</value>
+					<value id="18fbf350" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbf398" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[29]]>
+				</tooltip>
+				<commands>
+					<command id="1e00de28" type="DFP" changed="0">
+						<value refMeta="18fbf350" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e98738" name="Описание изделия">
+							<![CDATA[Пружина газовая]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">Suspa_Палец_part;19744;504:_185</refmedia>
+				<refmedia ref="1">Suspa_Палец_part;19744;506:_188</refmedia>
+				<refmedia ref="1">Suspa_Шток_part;22583;502:_190</refmedia>
+				<refmedia ref="1">Suspa_Цилиндр_part;19689;500:_192</refmedia>
+			</item>
+			<item id="18a45f60" refPart="b4083b8">
+				<metadata>
+					<value id="18fbf3e0" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[30]]>
+					</value>
+					<value id="18fbf428" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbf470" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[30]]>
+				</tooltip>
+				<commands>
+					<command id="1e00e4a8" type="DFP" changed="0">
+						<value refMeta="18fbf428" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e8cd50" name="Описание изделия">
+							<![CDATA[Переключатель дверной]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_ZF_005_388-001_part;32324;666:_168</refmedia>
+			</item>
+			<item id="18a44ad0" refPart="b4085c0">
+				<metadata>
+					<value id="18fbf4b8" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[31]]>
+					</value>
+					<value id="18fbf500" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbf548" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[31]]>
+				</tooltip>
+				<commands>
+					<command id="1e00e668" type="DFP" changed="0">
+						<value refMeta="18fbf500" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e98150" name="Описание изделия">
+							<![CDATA[Болт стопорный]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_5_0020_4022_part;9399;680:_196</refmedia>
+			</item>
+			<item id="18a477a8" refPart="b409358">
+				<metadata>
+					<value id="18fbf590" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[32]]>
+					</value>
+					<value id="18fbf5d8" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbf620" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[32]]>
+				</tooltip>
+				<commands>
+					<command id="1e00d9a8" type="DFP" changed="0">
+						<value refMeta="18fbf5d8" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e98228" name="Описание изделия">
+							<![CDATA[Прокладка малая]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_20597_part;10;628:_120</refmedia>
+			</item>
+			<item id="18a45470" refPart="b408750">
+				<metadata>
+					<value id="18fbf668" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[33]]>
+					</value>
+					<value id="18fbf6b0" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbf6f8" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[33]]>
+				</tooltip>
+				<commands>
+					<command id="1e00dca8" type="DFP" changed="0">
+						<value refMeta="18fbf6b0" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e98300" name="Описание изделия">
+							<![CDATA[Прокладка большая]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_20598_part;9725;630:_122</refmedia>
+			</item>
+			<item id="18a47968" refPart="b4061f8">
+				<metadata>
+					<value id="18fbf740" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[34]]>
+					</value>
+					<value id="18fbf788" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbf7d0" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[34]]>
+				</tooltip>
+				<commands>
+					<command id="1e00db68" type="DFP" changed="0">
+						<value refMeta="18fbf788" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e97e38" name="Описание изделия">
+							<![CDATA[Накладка замка]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_25156_part;13473;613:_103</refmedia>
+			</item>
+			<item id="18a47c08" refPart="b406cc0">
+				<metadata>
+					<value id="18fbf818" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[35]]>
+					</value>
+					<value id="18fbf860" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbf8a8" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[35]]>
+				</tooltip>
+				<commands>
+					<command id="1e00e168" type="DFP" changed="0">
+						<value refMeta="18fbf860" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e99c08" name="Описание изделия">
+							<![CDATA[Скоба ограждающая]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_20542_part;22481;583:_69</refmedia>
+			</item>
+			<item id="18a47188" refPart="b409060">
+				<metadata>
+					<value id="18fbf8f0" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[36]]>
+					</value>
+					<value id="18fbf938" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbf980" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[36]]>
+				</tooltip>
+				<commands>
+					<command id="b3cd210" type="DFP" changed="0">
+						<value refMeta="18fbf938" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e88bc8" name="Описание изделия">
+							<![CDATA[Ручка]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_24826_part;3095;627:_118</refmedia>
+			</item>
+			<item id="18a45ac8" refPart="b408e58">
+				<metadata>
+					<value id="18fbf9c8" name="Позиция" decl-id="ITEM" changed="0">
+						<![CDATA[37]]>
+					</value>
+					<value id="18fbfa10" name="Отступ" decl-id="IND" changed="0">
+						<![CDATA[2]]>
+					</value>
+					<value id="18fbfa58" name="Количество" decl-id="QNA" changed="0">
+						<![CDATA[1]]>
+					</value>
+				</metadata>
+				<tooltip>
+					<![CDATA[37]]>
+				</tooltip>
+				<commands>
+					<command id="b3cd310" type="DFP" changed="0">
+						<value refMeta="18fbfa10" name="Отступ">
+							<![CDATA[2]]>
+						</value>
+						<value refMeta="18e96e78" name="Описание изделия">
+							<![CDATA[Замок]]>
+						</value>
+					</command>
+				</commands>
+				<refmedia ref="1">_25158_part;9493;620:_113</refmedia>
+			</item>
+		</dplist>
+		<ipc-table>
+			<table>
+				<thead>
+					<row>
+						<entry/>
+						<entry column-id="ITEM" width="3">
+							<para>
+								<![CDATA[Поз.]]>
+							</para>
+						</entry>
+						<entry column-id="DESCR" width="22">
+							<para>
+								<![CDATA[Наименование]]>
+							</para>
+						</entry>
+						<entry column-id="PARTNUMBER" width="15">
+							<para>
+								<![CDATA[Обозначение
+детали]]>
+							</para>
+						</entry>
+						<entry column-id="_55F0095CD1CF4D7CB57F922625803C1D" width="10">
+							<para>
+								<![CDATA[Номенклату
+рный номер]]>
+							</para>
+						</entry>
+						<entry column-id="QTY" width="3">
+							<para>
+								<![CDATA[Кол-
+во]]>
+							</para>
+						</entry>
+						<entry column-id="_3EF2EF78EDE449F7AA1CBBBC4651925D" width="9">
+							<para>
+								<![CDATA[Цена,
+руб]]>
+							</para>
+						</entry>
+						<entry column-id="INFO" width="12">
+							<para>
+								<![CDATA[Примечание]]>
+							</para>
+						</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row refItem="18a45128">
+						<entry>
+							<para>
+								<![CDATA[
+
+
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<cmdtext refCmd="11882658">
+								<![CDATA[Дверь
+]]>
+							</cmdtext>
+							<cmdtext refCmd="118823d8">
+								<![CDATA[ СМ. 1083820
+ 85ТКФ.45.001-10
+ Кабина-СВУ]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[85ТКФ.45.400-10]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1033739]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1400х900х130
+21,9]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a46f58">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="11882218">
+								<![CDATA[•Каркас двери]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[85ТКФ.45.410-10]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1039436]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1199,5х673х1
+02,5 3,76]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a449f0">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[2]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="118821d8">
+								<![CDATA[•Винт]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[85ТКФ.45.1026]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1083856]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[2]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[Ø36,5х36
+0,01]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a47118">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[3]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="11882298">
+								<![CDATA[•Стекло двери]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[FM85ТК.45.401]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1083870]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1367х833х46
+11,3]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a45048">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[4]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="11881558">
+								<![CDATA[•Прокладка]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[85ТКФ.45.402]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1083871]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[215х99,5х2
+0,023]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a45d30">
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[5]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="11881f98">
+								<![CDATA[•Шайба уплотнительная]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[85ТКФ.45.413]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1083872]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[4]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[Ø60х5 0,009]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a478f8">
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[6]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="11881698">
+								<![CDATA[•Втулка уплотнительная]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[85ТКФ.45.414]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1083873]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[4]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[Ø36х10 0,004]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a47f88">
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[7]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="11881b18">
+								<![CDATA[•Шайба уплотнительная]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[85ТКФ.45.415]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1083874]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[4]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[Ø50х3 0,005]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a47460">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[8]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="118826d8">
+								<![CDATA[•Шайба]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[85ТКФ.45.416]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1083875]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[Ø30х2,5
+0,011]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a469a8">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[9]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="11882198">
+								<![CDATA[•Пластина резьбовая]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[85ТКФ.45.417]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1083876]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[40х20х8
+0,045]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a46f20">
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[10]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="11882bd8">
+								<![CDATA[•Шайба]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[85ТКФ.45.418]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1083877]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[2]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[Ø20х1 0,002]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a48458">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[11]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="11881418">
+								<![CDATA[•Втулка уплотнительная]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[85ТКФ.45.419]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1083857]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[4]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[Ø34,6х5
+0,002]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a47ea8">
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[12]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="b465e18">
+								<![CDATA[•Шайба уплотнительная]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[85ТКФ.45.421]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1083878]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[2]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[Ø39х2 0,002]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a45a58">
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[13]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="118817d8">
+								<![CDATA[•Шпилька]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[85ТКФ.45.422]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1083879]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[4]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[Ø10х40 0,024]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a46c48">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[14]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="b466318">
+								<![CDATA[•Петля]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[85ТКФ.45.808]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1047988]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[205,5х90х44
+0,9]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a47310">
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[15]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="b4658d8">
+								<![CDATA[•Петля]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[85ТКФ.45.808-10]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1083880]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="18a470e0">
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[16]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="b465d58">
+								<![CDATA[•Шпилька]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[85ТКФ.45.1008]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1083881]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[2]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[Ø8х116 0,045]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a45e80">
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[17]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="b466418">
+								<![CDATA[•Колпачок М8]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[85ТКФ.45.1019]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1083858]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[4]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[Ø14х15 0,001]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a47850">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[18]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="b465bd8">
+								<![CDATA[•Винт М6-6gх20.109.40Х
+ .019 ГОСТ 11738-84]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[01000350957710]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[228675]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="18a463c0">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[19]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="1e0902e0">
+								<![CDATA[•Винт В.М6-6gх25.58.01
+ 9 ГОСТ 17473-80]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1605100490/12]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1049997]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="18a45400">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[20]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="1e08fda0">
+								<![CDATA[•Винт В.М4-6gх16.58.С.
+ 016 ГОСТ 17475-80]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[ ]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[210428]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="18a46b30">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[21]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="1e08fba0">
+								<![CDATA[•Винт В.М8-6gх35.58.01
+ 9 ГОСТ 17475-80]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[7300020147]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[429301]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[2]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="18a454e0">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[22]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="1e08f8a0">
+								<![CDATA[•Гайка М8-6Н.6.019
+ ГОСТ 5915-70]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[01000300250000]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[9008]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[4]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="18a47038">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[23]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="1e090260">
+								<![CDATA[•Гайка М10-6Н.6.019
+ ГОСТ 5917-70]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[01000300344000]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[216346]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[4]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="18a46970">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[24]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="1e090020">
+								<![CDATA[•Шайба 8Т.65Г.019 ГОСТ
+ 6402-70]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[2731110]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[257960]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[2]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="18a462e0">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[25]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="1e08fbe0">
+								<![CDATA[•Шайба А.6.01.019 ГОСТ
+ 11371-78]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[А6.01.019 ГОСТ
+11371-78]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[848204]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="18a47150">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[26]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="1e08fea0">
+								<![CDATA[•Шайба А.8.02.019 ГОСТ
+ 11371-78]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[9507008000162]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[887468]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[4]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="18a44c20">
+						<entry>
+							<para>
+								<![CDATA[
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[27]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="1e090660">
+								<![CDATA[•Шайба А.10.02.019
+ ГОСТ 11371-78]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1603060130/13]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[887466]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[4]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="18a44b08">
+						<entry>
+							<para>
+								<![CDATA[
+
+
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[28]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="1e00da68">
+								<![CDATA[•Профиль уплотнительны
+ й]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[А4949]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1054198]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[4,1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[м, Sand
+Profile
+GmbH, Гермни
+я (А3560)]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a448a0">
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[29]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="1e00de28">
+								<![CDATA[•Пружина газовая]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[R-101]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1064089]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="18a45f60">
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[30]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="1e00e4a8">
+								<![CDATA[•Переключатель дверной]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[78.3710-03]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1083882]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+					</row>
+					<row refItem="18a44ad0">
+						<entry>
+							<para>
+								<![CDATA[
+
+
+
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[31]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="1e00e668">
+								<![CDATA[•Болт стопорный]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[05.0020.4022]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[937553]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[Комплект
+замков D.La
+Porte Sohne
+GmbH, Герман
+ия]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a477a8">
+						<entry>
+							<para>
+								<![CDATA[
+
+
+
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[32]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="1e00d9a8">
+								<![CDATA[•Прокладка малая]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[05.0948.0100]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[934225]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[Комплект
+замков D.La
+Porte Sohne
+GmbH, Герман
+ия]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a45470">
+						<entry>
+							<para>
+								<![CDATA[
+
+
+
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[33]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="1e00dca8">
+								<![CDATA[•Прокладка большая]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[05.0949.0100]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[934224]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[Комплект
+замков D.La
+Porte Sohne
+GmbH, Герман
+ия]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a47968">
+						<entry>
+							<para>
+								<![CDATA[
+
+
+
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[34]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="1e00db68">
+								<![CDATA[•Накладка замка]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[26.5212.0400]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[934341]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[Комплект
+замков D.La
+Porte Sohne
+GmbH, Герман
+ия]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a47c08">
+						<entry>
+							<para>
+								<![CDATA[
+
+
+
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[35]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="1e00e168">
+								<![CDATA[•Скоба ограждающая]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[32.4675.0522]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[934355]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[Комплект
+замков D.La
+Porte Sohne
+GmbH, Герман
+ия]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a47188">
+						<entry>
+							<para>
+								<![CDATA[
+
+
+
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[36]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="b3cd210">
+								<![CDATA[•Ручка]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[53.4565.0002]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[972790]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[Комплект
+замков D.La
+Porte Sohne
+GmbH, Герман
+ия]]>
+							</para>
+						</entry>
+					</row>
+					<row refItem="18a45ac8">
+						<entry>
+							<para>
+								<![CDATA[
+
+
+
+]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[37]]>
+							</para>
+						</entry>
+						<entry>
+							<cmdtext refCmd="b3cd310">
+								<![CDATA[•Замок]]>
+							</cmdtext>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[61.5200.0168]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[934335]]>
+							</para>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[1]]>
+							</para>
+						</entry>
+						<entry>
+							<para/>
+						</entry>
+						<entry>
+							<para>
+								<![CDATA[Комплект
+замков D.La
+Porte Sohne
+GmbH, Герман
+ия]]>
+							</para>
+						</entry>
+					</row>
+				</tbody>
+			</table>
+		</ipc-table>
+		<bgmedia/>
+		<views>
+			<view id="view_0" stepid="view_0" changed="0" revst="U" hidden="0">
+				<description>Сборка</description>
+				<transition id="view_1" stepid="trans_0"/>
+				<viewpoint>
+					<refmedia ref="1">
+						<![CDATA[vp_0]]>
+					</refmedia>
+				</viewpoint>
+				<refItem ref="18a448a0"/>
+				<refItem ref="18a449f0"/>
+				<refItem ref="18a44ad0"/>
+				<refItem ref="18a44b08"/>
+				<refItem ref="18a44c20"/>
+				<refItem ref="18a45048"/>
+				<refItem ref="18a45128"/>
+				<refItem ref="18a45400"/>
+				<refItem ref="18a45470"/>
+				<refItem ref="18a454e0"/>
+				<refItem ref="18a45a58"/>
+				<refItem ref="18a45ac8"/>
+				<refItem ref="18a45d30"/>
+				<refItem ref="18a45e80"/>
+				<refItem ref="18a45f60"/>
+				<refItem ref="18a462e0"/>
+				<refItem ref="18a463c0"/>
+				<refItem ref="18a46970"/>
+				<refItem ref="18a469a8"/>
+				<refItem ref="18a46b30"/>
+				<refItem ref="18a46c48"/>
+				<refItem ref="18a46f20"/>
+				<refItem ref="18a46f58"/>
+				<refItem ref="18a47038"/>
+				<refItem ref="18a470e0"/>
+				<refItem ref="18a47118"/>
+				<refItem ref="18a47150"/>
+				<refItem ref="18a47188"/>
+				<refItem ref="18a47310"/>
+				<refItem ref="18a47460"/>
+				<refItem ref="18a477a8"/>
+				<refItem ref="18a47850"/>
+				<refItem ref="18a478f8"/>
+				<refItem ref="18a47968"/>
+				<refItem ref="18a47c08"/>
+				<refItem ref="18a47ea8"/>
+				<refItem ref="18a47f88"/>
+				<refItem ref="18a48458"/>
+				<metadata/>
+				<refmedia ref="1"/>
+			</view>
+			<view id="view_1" stepid="view_1" changed="0" revst="U" hidden="0">
+				<description>Разбор</description>
+				<viewpoint>
+					<refmedia ref="1">
+						<![CDATA[vp_1]]>
+					</refmedia>
+				</viewpoint>
+				<refItem ref="18a448a0"/>
+				<refItem ref="18a449f0"/>
+				<refItem ref="18a44ad0"/>
+				<refItem ref="18a44b08"/>
+				<refItem ref="18a44c20"/>
+				<refItem ref="18a45048"/>
+				<refItem ref="18a45128"/>
+				<refItem ref="18a45400"/>
+				<refItem ref="18a45470"/>
+				<refItem ref="18a454e0"/>
+				<refItem ref="18a45a58"/>
+				<refItem ref="18a45ac8"/>
+				<refItem ref="18a45d30"/>
+				<refItem ref="18a45e80"/>
+				<refItem ref="18a45f60"/>
+				<refItem ref="18a462e0"/>
+				<refItem ref="18a463c0"/>
+				<refItem ref="18a46970"/>
+				<refItem ref="18a469a8"/>
+				<refItem ref="18a46b30"/>
+				<refItem ref="18a46c48"/>
+				<refItem ref="18a46f20"/>
+				<refItem ref="18a46f58"/>
+				<refItem ref="18a47038"/>
+				<refItem ref="18a470e0"/>
+				<refItem ref="18a47118"/>
+				<refItem ref="18a47150"/>
+				<refItem ref="18a47188"/>
+				<refItem ref="18a47310"/>
+				<refItem ref="18a47460"/>
+				<refItem ref="18a477a8"/>
+				<refItem ref="18a47850"/>
+				<refItem ref="18a478f8"/>
+				<refItem ref="18a47968"/>
+				<refItem ref="18a47c08"/>
+				<refItem ref="18a47ea8"/>
+				<refItem ref="18a47f88"/>
+				<refItem ref="18a48458"/>
+				<metadata/>
+				<refmedia ref="1"/>
+			</view>
+		</views>
+	</figure>
+	<parts>
+		<part id="b406f68">
+			<metadata>
+				<value id="25fbb30" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[85ТКФ.45.400-10]]>
+				</value>
+				<value id="25fbe90" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Дверь]]>
+				</value>
+				<value id="25fbed8" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1033739]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b409240">
+			<metadata>
+				<value id="25fbf68" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[85ТКФ.45.410-10]]>
+				</value>
+				<value id="25fbf20" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Каркас двери]]>
+				</value>
+				<value id="25fc040" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1039436]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b409560">
+			<metadata>
+				<value id="25fbfb0" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[85ТКФ.45.1026]]>
+				</value>
+				<value id="25fbff8" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Винт]]>
+				</value>
+				<value id="25fc118" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1083856]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b408ed0">
+			<metadata>
+				<value id="25fc0d0" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[FM85ТК.45.401]]>
+				</value>
+				<value id="25fc160" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Стекло двери]]>
+				</value>
+				<value id="25fc1f0" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1083870]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b407698">
+			<metadata>
+				<value id="25fc238" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[85ТКФ.45.402]]>
+				</value>
+				<value id="25fc1a8" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Прокладка]]>
+				</value>
+				<value id="25fc2c8" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1083871]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b408de0">
+			<metadata>
+				<value id="25fc280" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[85ТКФ.45.413]]>
+				</value>
+				<value id="25fc310" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Шайба уплотнительная]]>
+				</value>
+				<value id="25fc3a0" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1083872]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b406608">
+			<metadata>
+				<value id="25fc358" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[85ТКФ.45.414]]>
+				</value>
+				<value id="25fc3e8" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Втулка уплотнительная]]>
+				</value>
+				<value id="25fc478" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1083873]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b407ee0">
+			<metadata>
+				<value id="25fc430" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[85ТКФ.45.415]]>
+				</value>
+				<value id="25fc550" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Шайба уплотнительная]]>
+				</value>
+				<value id="25fc4c0" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1083874]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b407508">
+			<metadata>
+				<value id="25fc508" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[85ТКФ.45.416]]>
+				</value>
+				<value id="25fc598" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Шайба]]>
+				</value>
+				<value id="25fc628" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1083875]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b4086d8">
+			<metadata>
+				<value id="25fc5e0" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[85ТКФ.45.417]]>
+				</value>
+				<value id="25fc670" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Пластина резьбовая]]>
+				</value>
+				<value id="25fc700" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1083876]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b409970">
+			<metadata>
+				<value id="25fc6b8" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[85ТКФ.45.418]]>
+				</value>
+				<value id="25fc748" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Шайба]]>
+				</value>
+				<value id="25fbaa0" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1083877]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b406068">
+			<metadata>
+				<value id="25fbae8" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[85ТКФ.45.419]]>
+				</value>
+				<value id="25fc088" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Втулка уплотнительная]]>
+				</value>
+				<value id="25fbd28" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1083857]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b408688">
+			<metadata>
+				<value id="25fbd70" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[85ТКФ.45.421]]>
+				</value>
+				<value id="25fbe00" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Шайба уплотнительная]]>
+				</value>
+				<value id="25fbdb8" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1083878]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b4086b0">
+			<metadata>
+				<value id="25fbce0" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[85ТКФ.45.422]]>
+				</value>
+				<value id="25fbbc0" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Шпилька]]>
+				</value>
+				<value id="25fbc50" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1083879]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b408d68">
+			<metadata>
+				<value id="25fbc98" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[85ТКФ.45.808]]>
+				</value>
+				<value id="25fbc08" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Петля]]>
+				</value>
+				<value id="25fbb78" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1047988]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b407cb0">
+			<metadata>
+				<value id="25fb9c8" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[85ТКФ.45.1008]]>
+				</value>
+				<value id="25fba10" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Шпилька]]>
+				</value>
+				<value id="25fb980" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1083881]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b407878">
+			<metadata>
+				<value id="18e98780" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[85ТКФ.45.1019]]>
+				</value>
+				<value id="18e9b828" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Колпачок М8]]>
+				</value>
+				<value id="18e91dc0" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1083858]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b4087a0">
+			<metadata>
+				<value id="18e91e08" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[01000350957710]]>
+				</value>
+				<value id="18e91e50" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Винт М6-6gх20.109.40Х.019 ГОСТ 11738-84]]>
+				</value>
+				<value id="18e83d50" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[228675]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b406c70">
+			<metadata>
+				<value id="18e86030" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[1605100490/12]]>
+				</value>
+				<value id="18e85fe8" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Винт В.М6-6gх25.58.019 ГОСТ 17473-80]]>
+				</value>
+				<value id="18e85fa0" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1049997]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b405f50">
+			<metadata>
+				<value id="18e85f58" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[ ]]>
+				</value>
+				<value id="18e86078" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Винт В.М4-6gх16.58.С.016 ГОСТ 17475-80]]>
+				</value>
+				<value id="18e85ec8" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[210428]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b405fc8">
+			<metadata>
+				<value id="18e85f10" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[7300020147]]>
+				</value>
+				<value id="18e93e18" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Винт В.М8-6gх35.58.019 ГОСТ 17475-80]]>
+				</value>
+				<value id="18e93e60" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[429301]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b406950">
+			<metadata>
+				<value id="18e9f458" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[01000300250000]]>
+				</value>
+				<value id="18e82520" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Гайка М8-6Н.6.019 ГОСТ 5915-70]]>
+				</value>
+				<value id="18e9f4e8" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[9008]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b4064f0">
+			<metadata>
+				<value id="18e9f4a0" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[01000300344000]]>
+				</value>
+				<value id="18e9f530" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Гайка М10-6Н.6.019 ГОСТ 5917-70]]>
+				</value>
+				<value id="18e9f5c0" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[216346]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b409ce0">
+			<metadata>
+				<value id="18e9f578" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[2731110]]>
+				</value>
+				<value id="18e9f608" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Шайба 8Т.65Г.019 ГОСТ 6402-70]]>
+				</value>
+				<value id="18e9f698" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[257960]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b407af8">
+			<metadata>
+				<value id="18e9f650" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[А6.01.019 ГОСТ 11371-78]]>
+				</value>
+				<value id="18e9f6e0" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Шайба А.6.01.019 ГОСТ 11371-78]]>
+				</value>
+				<value id="18e9f770" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[848204]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b406978">
+			<metadata>
+				<value id="18e91e98" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[9507008000162]]>
+				</value>
+				<value id="18e8fd68" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Шайба А.8.02.019 ГОСТ 11371-78]]>
+				</value>
+				<value id="18e91f28" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[887468]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b406040">
+			<metadata>
+				<value id="18e8fdb0" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[1603060130/13]]>
+				</value>
+				<value id="18e93878" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Шайба А.10.02.019 ГОСТ 11371-78]]>
+				</value>
+				<value id="18e8fd20" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[887466]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b408278">
+			<metadata>
+				<value id="18e87668" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[А4949]]>
+				</value>
+				<value id="18e876b0" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Профиль уплотнительный]]>
+				</value>
+				<value id="18e8bdd8" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1054198]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b409128">
+			<metadata>
+				<value id="18e8cd98" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[R-101]]>
+				</value>
+				<value id="18e98738" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Пружина газовая]]>
+				</value>
+				<value id="18e8e2f8" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1064089]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b4083b8">
+			<metadata>
+				<value id="18e9cea8" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[78.3710-03]]>
+				</value>
+				<value id="18e8cd50" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Переключатель дверной]]>
+				</value>
+				<value id="18e8cd08" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1083882]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b4085c0">
+			<metadata>
+				<value id="18e9b0d8" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[05.0020.4022]]>
+				</value>
+				<value id="18e98150" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Болт стопорный]]>
+				</value>
+				<value id="18e981e0" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[937553]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b409358">
+			<metadata>
+				<value id="18e98198" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[05.0948.0100]]>
+				</value>
+				<value id="18e98228" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Прокладка малая]]>
+				</value>
+				<value id="18e982b8" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[934225]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b408750">
+			<metadata>
+				<value id="18e98270" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[05.0949.0100]]>
+				</value>
+				<value id="18e98300" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Прокладка большая]]>
+				</value>
+				<value id="18e98390" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[934224]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b4061f8">
+			<metadata>
+				<value id="18e97df0" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[26.5212.0400]]>
+				</value>
+				<value id="18e97e38" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Накладка замка]]>
+				</value>
+				<value id="18e99c50" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[934341]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b406cc0">
+			<metadata>
+				<value id="18e99bc0" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[32.4675.0522]]>
+				</value>
+				<value id="18e99c08" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Скоба ограждающая]]>
+				</value>
+				<value id="18e88b80" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[934355]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b409060">
+			<metadata>
+				<value id="18e88c10" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[53.4565.0002]]>
+				</value>
+				<value id="18e88bc8" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Ручка]]>
+				</value>
+				<value id="18e96de8" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[972790]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b408e58">
+			<metadata>
+				<value id="18e96e30" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[61.5200.0168]]>
+				</value>
+				<value id="18e96e78" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Замок]]>
+				</value>
+				<value id="18e96ec0" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[934335]]>
+				</value>
+			</metadata>
+		</part>
+		<part id="b407ad0">
+			<metadata>
+				<value id="18e96f08" name="Обозначение" decl-id="PNR" changed="0">
+					<![CDATA[85ТКФ.45.808-10]]>
+				</value>
+				<value id="18e90230" name="Описание" decl-id="DFP" changed="0">
+					<![CDATA[Петля]]>
+				</value>
+				<value id="18e902c0" name="Номенклатурный номер" decl-id="_D5305722CC394652A45F91579A579806" changed="0">
+					<![CDATA[1083880]]>
+				</value>
+			</metadata>
+		</part>
+	</parts>
+	<reftables>
+		<reftable name="ОТСТУП">
+			<value descr="">
+				<![CDATA[1]]>
+			</value>
+			<value descr=".">
+				<![CDATA[2]]>
+			</value>
+			<value descr="..">
+				<![CDATA[3]]>
+			</value>
+			<value descr="...">
+				<![CDATA[4]]>
+			</value>
+			<value descr="....">
+				<![CDATA[5]]>
+			</value>
+			<value descr=".....">
+				<![CDATA[6]]>
+			</value>
+			<value descr="......">
+				<![CDATA[7]]>
+			</value>
+			<value descr=".......">
+				<![CDATA[8]]>
+			</value>
+			<value descr="........">
+				<![CDATA[9]]>
+			</value>
+		</reftable>
+	</reftables>
+</ipc>

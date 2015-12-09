@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN>" 
+<html> 
+<head>  
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+<style type="text/css">
+
+a:link {
+    color: #00AEEF/; /* Цвет ссылок */ 
+    font-weight: bold;
+   }
+a:hover { 
+    color: #FB4F14; /* Цвет ссылки */ 
+   } 
+TABLE 
+{   
+width: 100%; /* Ширина таблицы */
+border-bottom: 2px solid maroon; /* Линия внизу таблицы *//* Линия внизу таблицы */
+border-left: 2px solid maroon;
+ border-color: white; 
+background: #E3F1FF; /*Цвет фона таблицы */
+}
+TH
+{
+background: #00AEEF; /* Цвет фона заголовка */
+color: white; /* Цвет текста */
+text-align: center; /* Выравнивание по левому краю */
+border-right: 3px solid maroon;
+font-family: Calibri;
+font-size: 14pt;
+}
+TD, TH 
+{
+padding: 8px; /* Поля вокруг текста */
+border-right: 3px solid maroon;
+border-color: white; 
+/*text-align: center;*/
+font-family: Calibri;
+font-size: 12pt;
+
+}
+</style> 
+</head>
+<body>
+<table cellspacing="0">
+<tbody>
+<tr><th>Наименование</th>
+<th>Обозначение</th>
+<th> Кол-во</th>
+<th>Входимость в узлы</th>
+<th>Входимость в каталог</th>
+</tr>

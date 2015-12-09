@@ -29,14 +29,15 @@ namespace TK130.Pages
         SQLiteConnection mConn;
         SQLiteDataAdapter mAdapter;
         DataTable mTable;
-        
-        
+
+
         public Home()
         {
             InitializeComponent();
 
-        
-
+        }
+    }
+/*
   // Navigate to HTML document stream
 
 
@@ -122,4 +123,5 @@ namespace TK130.Pages
         }
 
     }
-}
+*/
+ }

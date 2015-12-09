@@ -99,6 +99,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Pages\Catalog.xaml.cs">
+      <DependentUpon>Catalog.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -113,6 +116,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Pages\AboutCompany.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Catalog.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -183,7 +190,9 @@
     <None Include="Docs\1083823.wrl" />
     <None Include="Docs\1083824.wrl" />
     <None Include="Docs\1083825.wrl" />
-    <None Include="Docs\1083869.wrl" />
+    <None Include="Docs\1083869.wrl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Docs\1083883.wrl" />
     <None Include="Docs\1089208.wrl" />
     <None Include="Docs\165835.wrl" />
@@ -258,8 +267,12 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="images\30ТК122-10.000.jpg" />
-    <Resource Include="images\48х48.ico" />
+    <Resource Include="images\30ТК122-10.000.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\48х48.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="images\amh.png" />
     <Resource Include="images\combine.jpg" />
     <Resource Include="images\logo.png" />
@@ -339,8 +352,12 @@
     <Content Include="Docs\1083824.interactivity.xml" />
     <Content Include="Docs\1083825.htm" />
     <Content Include="Docs\1083825.interactivity.xml" />
-    <Content Include="Docs\1083869.htm" />
-    <Content Include="Docs\1083869.interactivity.xml" />
+    <Content Include="Docs\1083869.htm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Docs\1083869.interactivity.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Docs\1083883.htm" />
     <Content Include="Docs\1083883.interactivity.xml" />
     <Content Include="Docs\1089208.htm" />
@@ -509,6 +526,9 @@
     <Content Include="Docs\res_PROMTRAKTOR_IPC\v7.gif" />
     <Content Include="Docs\res_PROMTRAKTOR_IPC\xptable.js" />
     <Content Include="Docs\Search\style.css" />
+    <Content Include="images\fon_home_page.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.98.1\build\net45\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.98.1\build\net45\System.Data.SQLite.Core.targets')" />
