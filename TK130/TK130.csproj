@@ -526,6 +526,9 @@
     <Content Include="Docs\res_PROMTRAKTOR_IPC\v7.gif" />
     <Content Include="Docs\res_PROMTRAKTOR_IPC\xptable.js" />
     <Content Include="Docs\Search\style.css" />
+    <Resource Include="images\30ТК122-10.000.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Content Include="images\fon_home_page.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

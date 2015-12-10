@@ -5,8 +5,8 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
-   
- <!--
+
+    <!--
     <StackPanel>
         <ComboBox Name="CmbTables">
             <ComboBox.ItemTemplate>
@@ -25,9 +25,27 @@
         </DataGrid>
     </StackPanel>
 -->
-    <DockPanel>
-        <Image Source="/images/fon_home_page.png" VerticalAlignment="Center" HorizontalAlignment="Center" Panel.ZIndex="0"></Image>
-        <Image Source="/images/30ТК122-10.000.jpg" VerticalAlignment="Center" HorizontalAlignment="Center" Panel.ZIndex="1"></Image>
-    </DockPanel>
+    <StackPanel>
+        <StackPanel.Background>
+            <ImageBrush ImageSource="/images/fon_home_page.png" Opacity="0.4"/>
+        </StackPanel.Background>
+    <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition  Height="auto"></RowDefinition>                
+                <RowDefinition  Height="auto"></RowDefinition>
+                <RowDefinition  Height="auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <!--    <Image Source="/images/fon_home_page.png" VerticalAlignment="Center" HorizontalAlignment="Center" Opacity="0.5" Panel.ZIndex="50"></Image> -->
+            <Image Source="/images/logo.png"  HorizontalAlignment="Left" Grid.Column="0" Grid.Row="0" Opacity="0.5"></Image>
+            <TextBlock Grid.Column="1" Grid.Row="1" FontSize="16" FontWeight="Bold">ЭЛЕКТРОННЫЙ КАТАЛОГ ДЕТАЛЕЙ И <LineBreak/> СБОРОЧНЫХ ЕДИНИЦ</TextBlock>
+            <TextBlock Grid.Column="0" Grid.Row="1" FontSize="16" FontWeight="Bold">АГРОМАШ 30 ТК-10</TextBlock>
+            <TextBlock Grid.Column="1" Grid.Row="1" FontSize="18" FontWeight="Bold">2015</TextBlock>
+            <Image Source="/images/30ТК122-10.000.png" Grid.ColumnSpan="2" Grid.Row="2" ></Image>
+        </Grid>
+    </StackPanel>
 </UserControl>
     

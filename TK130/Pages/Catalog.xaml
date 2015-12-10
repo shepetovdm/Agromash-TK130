@@ -18,8 +18,8 @@
             </DockPanel>
         </ScrollViewer>
         <DockPanel   Grid.Column="0">
-            <TreeView MinWidth="300" >
-                <TreeViewItem Header="Агромаш ТК 130">
+            <TreeView MinWidth="300">
+                <TreeViewItem Header="Агромаш ТК 130" IsExpanded="True">
                     <TreeViewItem Header="" Name="asdsad" MouseLeftButtonUp="Treeitem_Click">Дизель Д120
                         <TreeViewItem>Остов дизеля</TreeViewItem>
                         <TreeViewItem></TreeViewItem>
