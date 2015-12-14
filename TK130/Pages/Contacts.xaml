@@ -6,6 +6,7 @@
              xmlns:mui="http://firstfloorsoftware.com/ModernUI"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
+         
     <Grid Style="{StaticResource ContentRoot}">
         <!-- TODO: set @SelectedSource -->
         <Grid.RowDefinitions>
@@ -23,51 +24,54 @@
 тел./факс: (495) 580-70-10, (495) 580-70-18 <LineBreak/>
 e-mail: eg.sycheva@tplants.com                
             </TextBlock>
-        <TextBlock Grid.Row="0" Grid.Column="1" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Grid.Row="0" Grid.Column="1"  VerticalAlignment="Center" HorizontalAlignment="Center">
              г.Чебоксары <LineBreak/>
 Россия, 428027, г. Чебоксары, ул. Хузангая, д. 26Б <LineBreak/>
 тел./факс: (8352) 30-43-33, (8352) 30-43-24 <LineBreak/>
 e-mail: ev.shchetinina@agromh.com   
             </TextBlock>                        
         <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Margin="3" HorizontalAlignment="Left" >
-            <Expander Header="Сибирский федеральный округ и Дальневосточный федеральный округ" Margin="5" Foreground="OrangeRed">
-                <TextBlock Foreground="Black">                    
+            <Expander Header="Сибирский федеральный округ и Дальневосточный федеральный округ" Style="{StaticResource ContactsExpanderStyle}">
+                <TextBlock  Style="{StaticResource ContactsTextBlockStyle}">                    
                     Россия, 660049, г. Красноярск, ул. Профсоюзов, д.3, стр.2  <LineBreak/>Руководитель дирекции - Мартынушкин Иван Сергеевич <LineBreak/>тел.: (391) 259-58-32, сот.: 8-913-030-47-60
 <LineBreak/>e-mail: is.martinushkin@agromh.com
                 </TextBlock>
                 </Expander>
-            <Expander Header="Уральский федеральный округ" Margin="5">
-                    Россия, 428027, г. Чебоксары, ул. Хузангая, д. 26Б
-Зам. руководителя дирекции - Ростовцев Алексей Владимирович
-тел.: (8352) 30-43-34, сот.: 8-987-669-45-89
+            <Expander Header="Уральский федеральный округ" Style="{StaticResource ContactsExpanderStyle}">
+                <TextBlock  Style="{StaticResource ContactsTextBlockStyle}">
+                Россия, 428027, г. Чебоксары, ул. Хузангая, д. 26Б<LineBreak/>
+                Зам. руководителя дирекции - Ростовцев Алексей Владимирович тел.: (8352) 30-43-34, сот.: 8-987-669-45-89<LineBreak/>
 e-mail: a.rostovcev@tplants.com
-                </Expander>
-            <Expander Header="Приволжский федеральный округ" Margin="5">
-                Россия, 428027, г. Чебоксары, ул. Хузангая, д. 26Б
-Руководитель дирекции - Басов Руслан Иванович
-тел.: (8352) 30-44-77, сот.: 8-903-358-34-10
-e-mail: basov@agromh.com
+                </TextBlock>
             </Expander>
-            <Expander Header="Северо-Западный федеральный округ" Margin="5">
+            <Expander Header="Приволжский федеральный округ" Style="{StaticResource ContactsExpanderStyle}">
+                <TextBlock  Style="{StaticResource ContactsTextBlockStyle}">                
+                Россия, 428027, г. Чебоксары, ул. Хузангая, д. 26Б<LineBreak/>
+Руководитель дирекции - Басов Руслан Иванович
+тел.: (8352) 30-44-77, сот.: 8-903-358-34-10<LineBreak/>
+e-mail: basov@agromh.com
+                </TextBlock>    
+            </Expander>
+            <Expander Header="Северо-Западный федеральный округ" Style="{StaticResource ContactsExpanderStyle}">
                 Россия, 600000, г. Владимир, ул. Тракторная, д. 43
 Руководитель дирекции - Гудкова Елена Алексеевна
 тел.: (4922) 43-14-69, сот.: 8-910-775-48-81
 e-mail: e.a.gudkova@tplants.com
             </Expander>
-            <Expander Header="Центральный федеральный округ" Margin="5">
+            <Expander Header="Центральный федеральный округ" Style="{StaticResource ContactsExpanderStyle}">
 Россия, 125000, ул. Дубнинская, д. 81А, стр.18
 Руководитель дирекции - Лукин Игорь Иванович
 тел.: (495) 580-70-10 доб. 201, сот.: 8-916-443-02-34
 e-mail: I_Lukin@agromh.com
             </Expander>
-            <Expander Header="Южный федеральный округ и Северо-Кавказский федеральный округ" Margin="5">
+            <Expander Header="Южный федеральный округ и Северо-Кавказский федеральный округ" Style="{StaticResource ContactsExpanderStyle}">
                 Россия, 344000, г. Ростов-на-Дону, 1086 км трассы Дон М-4, ТВК "Южный"
 Россия, 400006, г. Волгоград, пл. Дзержинского, д. 1
 Руководитель дирекции - Щёголев Александр Юрьевич
 тел.: 8 (989) 729-52-10
 e-mail: shchegolev@tplants.com
             </Expander>
-            <Expander Header="Управление гарантийного сервисного обслуживания и запасных частей" Margin="5">
+            <Expander Header="Управление гарантийного сервисного обслуживания и запасных частей" Style="{StaticResource ContactsExpanderStyle}">
 Россия, 428027, г. Чебоксары, ул. Хузангая, д. 26Б
 Россия, 125000, ул. Дубнинская, д. 81А, стр.18
 Директор по ГСО и запасным частям- Атеняев Виктор Федорович
