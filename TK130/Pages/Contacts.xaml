@@ -6,6 +6,8 @@
              xmlns:mui="http://firstfloorsoftware.com/ModernUI"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
+     
+    
     <Grid Style="{StaticResource ContentRoot}">
         <!-- TODO: set @SelectedSource -->
         <Grid.RowDefinitions>
@@ -37,9 +39,8 @@ e-mail: ev.shchetinina@agromh.com
                 </TextBlock>
                 </Expander>
             <Expander Header="Уральский федеральный округ" Margin="5">
-                    Россия, 428027, г. Чебоксары, ул. Хузангая, д. 26Б
-Зам. руководителя дирекции - Ростовцев Алексей Владимирович
-тел.: (8352) 30-43-34, сот.: 8-987-669-45-89
+                Россия, 428027, г. Чебоксары, ул. Хузангая, д. 26Б
+                Зам. руководителя дирекции - Ростовцев Алексей Владимирович тел.: (8352) 30-43-34, сот.: 8-987-669-45-89
 e-mail: a.rostovcev@tplants.com
                 </Expander>
             <Expander Header="Приволжский федеральный округ" Margin="5">

@@ -1,0 +1,12 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mui="http://firstfloorsoftware.com/ModernUI">
+    
+    <Style TargetType="Expander">
+        <Setter Property="Foreground" Value="OrangeRed" />
+    </Style>
+    <Style TargetType="mui:ModernMenu">
+        <Setter Property="Foreground" Value="Red"/>
+    </Style>
+</ResourceDictionary>
