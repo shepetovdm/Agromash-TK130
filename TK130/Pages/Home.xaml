@@ -46,6 +46,7 @@
             <Label Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">ЭЛЕКТРОННЫЙ КАТАЛОГ ДЕТАЛЕЙ И СБОРОЧНЫХ ЕДИНИЦ</Label>            
             <Label Grid.Column="1" Grid.Row="0">2015</Label>
             <Image Source="/images/30ТК122-10.000.png" Grid.ColumnSpan="2" Grid.Row="2" Opacity="0.5" MaxWidth="1000"></Image>
+
         </Grid>
     </StackPanel>
 </UserControl>

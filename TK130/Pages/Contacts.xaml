@@ -6,7 +6,7 @@
              xmlns:mui="http://firstfloorsoftware.com/ModernUI"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
-         
+
     <Grid Style="{StaticResource ContentRoot}">
         <!-- TODO: set @SelectedSource -->
         <Grid.RowDefinitions>
@@ -36,7 +36,7 @@ e-mail: ev.shchetinina@agromh.com
                     Россия, 660049, г. Красноярск, ул. Профсоюзов, д.3, стр.2  <LineBreak/>Руководитель дирекции - Мартынушкин Иван Сергеевич <LineBreak/>тел.: (391) 259-58-32, сот.: 8-913-030-47-60
 <LineBreak/>e-mail: is.martinushkin@agromh.com
                 </TextBlock>
-                </Expander>
+            </Expander>
             <Expander Header="Уральский федеральный округ" Style="{StaticResource ContactsExpanderStyle}">
                 <TextBlock  Style="{StaticResource ContactsTextBlockStyle}">
                 Россия, 428027, г. Чебоксары, ул. Хузангая, д. 26Б<LineBreak/>

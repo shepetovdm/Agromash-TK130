@@ -16,5 +16,6 @@
         <Setter Property="FontSize" Value="20"/>
         <Setter Property="FontWeight" Value="Bold"/>
         <Setter Property="HorizontalAlignment" Value="Center"/>
+
     </Style>
 </ResourceDictionary>
