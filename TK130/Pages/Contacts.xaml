@@ -18,19 +18,20 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-            <TextBlock Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock  Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{StaticResource ContactsTextBlockStyle}">
 г.Москва <LineBreak/>
 Россия, 125000, ул. Дубнинская, д. 81А, стр.18 <LineBreak/>
 тел./факс: (495) 580-70-10, (495) 580-70-18 <LineBreak/>
 e-mail: eg.sycheva@tplants.com                
             </TextBlock>
-        <TextBlock Grid.Row="0" Grid.Column="1"  VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Grid.Row="0" Grid.Column="1"  VerticalAlignment="Center" HorizontalAlignment="Center" Style="{StaticResource ContactsTextBlockStyle}">
              г.Чебоксары <LineBreak/>
 Россия, 428027, г. Чебоксары, ул. Хузангая, д. 26Б <LineBreak/>
 тел./факс: (8352) 30-43-33, (8352) 30-43-24 <LineBreak/>
 e-mail: ev.shchetinina@agromh.com   
             </TextBlock>                        
-        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Margin="3" HorizontalAlignment="Left" >
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Margin="10"  HorizontalAlignment="Left">
+           
             <Expander Header="Сибирский федеральный округ и Дальневосточный федеральный округ" Style="{StaticResource ContactsExpanderStyle}">
                 <TextBlock  Style="{StaticResource ContactsTextBlockStyle}">                    
                     Россия, 660049, г. Красноярск, ул. Профсоюзов, д.3, стр.2  <LineBreak/>Руководитель дирекции - Мартынушкин Иван Сергеевич <LineBreak/>тел.: (391) 259-58-32, сот.: 8-913-030-47-60
@@ -53,23 +54,29 @@ e-mail: basov@agromh.com
                 </TextBlock>    
             </Expander>
             <Expander Header="Северо-Западный федеральный округ" Style="{StaticResource ContactsExpanderStyle}">
-                Россия, 600000, г. Владимир, ул. Тракторная, д. 43
+                <TextBlock  Style="{StaticResource ContactsTextBlockStyle}">
+                Россия, 600000, г. Владимир, ул. Тракторная, д. 43<LineBreak/>
 Руководитель дирекции - Гудкова Елена Алексеевна
-тел.: (4922) 43-14-69, сот.: 8-910-775-48-81
+тел.: (4922) 43-14-69, сот.: 8-910-775-48-81<LineBreak/>
 e-mail: e.a.gudkova@tplants.com
+                </TextBlock>
             </Expander>
             <Expander Header="Центральный федеральный округ" Style="{StaticResource ContactsExpanderStyle}">
-Россия, 125000, ул. Дубнинская, д. 81А, стр.18
+                <TextBlock  Style="{StaticResource ContactsTextBlockStyle}">
+Россия, 125000, ул. Дубнинская, д. 81А, стр.18<LineBreak/>
 Руководитель дирекции - Лукин Игорь Иванович
-тел.: (495) 580-70-10 доб. 201, сот.: 8-916-443-02-34
+тел.: (495) 580-70-10 доб. 201, сот.: 8-916-443-02-34<LineBreak/>
 e-mail: I_Lukin@agromh.com
+                </TextBlock>
             </Expander>
             <Expander Header="Южный федеральный округ и Северо-Кавказский федеральный округ" Style="{StaticResource ContactsExpanderStyle}">
+                <TextBlock  Style="{StaticResource ContactsTextBlockStyle}">    
                 Россия, 344000, г. Ростов-на-Дону, 1086 км трассы Дон М-4, ТВК "Южный"
-Россия, 400006, г. Волгоград, пл. Дзержинского, д. 1
+Россия, 400006, г. Волгоград, пл. Дзержинского, д. 1<LineBreak/>
 Руководитель дирекции - Щёголев Александр Юрьевич
-тел.: 8 (989) 729-52-10
+тел.: 8 (989) 729-52-10<LineBreak/>
 e-mail: shchegolev@tplants.com
+                </TextBlock>
             </Expander>
             <Expander Header="Управление гарантийного сервисного обслуживания и запасных частей" Style="{StaticResource ContactsExpanderStyle}">
 Россия, 428027, г. Чебоксары, ул. Хузангая, д. 26Б

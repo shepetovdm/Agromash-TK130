@@ -13,8 +13,8 @@
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="Каталог ДСЕ">
             <mui:LinkGroup.Links>
-                <mui:Link DisplayName="Каталог" Source="/Pages/Catalog.xaml" />
-                <mui:Link DisplayName="Поиск" Source="/Pages/Catalog.xaml" />
+                <mui:Link DisplayName="Каталог" Source="/Pages/Catalog.xaml"/>
+                <mui:Link DisplayName="Поиск" Source="/Pages/Search.xaml" />
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="О компании">

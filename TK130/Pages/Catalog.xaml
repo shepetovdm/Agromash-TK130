@@ -20,14 +20,7 @@
         <DockPanel   Grid.Column="0">
             <TreeView MinWidth="300">
                 <TreeViewItem Header="Агромаш ТК 130" IsExpanded="True">
-                    <TreeViewItem Header="" Name="asdsad" MouseLeftButtonUp="Treeitem_Click">Дизель Д120
-                        <TreeViewItem>Остов дизеля</TreeViewItem>
-                        <TreeViewItem></TreeViewItem>
-                        <TreeViewItem></TreeViewItem>
-                        <TreeViewItem></TreeViewItem>
-                        <TreeViewItem></TreeViewItem>
-                        <TreeViewItem></TreeViewItem>
-                    </TreeViewItem><TreeViewItem></TreeViewItem>
+                    <TreeViewItem Header="Дизель Д120" MouseLeftButtonUp="Treeitem_Click"></TreeViewItem>                                           
                     <TreeViewItem Header="Установка дизеля Д120 на тракторе"></TreeViewItem>
                     <TreeViewItem Header="Установка воздухоочистителя"></TreeViewItem>
                     <TreeViewItem Header="Управление двигателем"></TreeViewItem>
