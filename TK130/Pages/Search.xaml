@@ -7,16 +7,12 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Style="{StaticResource ContentRoot}">
-        <ScrollViewer>
+        <ScrollViewer>            
             <StackPanel MinWidth="200">
-                <TextBox Text="Поиск"/>
-                <DataGrid Name="gridProducts" AutoGenerateColumns="False">
-                    <DataGrid.Columns>
-                        <DataGridTextColumn Header="Наименование" Width="175" 
-                             Binding="{Binding Path=ModelName}"></DataGridTextColumn>
-                        <DataGridTextColumn Header="Чертежное обозначение" 
-                             Binding="{Binding Path=UnitCost,StringFormat={}{0:C}}"></DataGridTextColumn>
-                    </DataGrid.Columns>
+                <TextBox Name="Search_Text"  TextChanged="TextBox_TextChanged"/>
+                <Button Click="Button_Click">Найти</Button>
+                <DataGrid Name="gridProducts" EnableRowVirtualization="True" ColumnWidth="*">
+                    
                 </DataGrid>
             </StackPanel>
         </ScrollViewer>
