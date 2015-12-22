@@ -147,7 +147,8 @@ namespace TK130.Pages
             // ---------------------------------------------------------
             // In simply put, DataTable is just matrix (2-dimensional array)
             // which stores data of the table.
-            string search_query = "SELECT search_label as Наименование, search_sku as обозначение FROM search WHERE search_label like \"" + Search_Text.Text + "\"";
+            string search_query = "SELECT child_label, sku, quanity, node_label, parent_label FROM search where search_label || search_sku  like \"%" + Search_Text.Text + "%\"";            
+            //string search_query = "SELECT search_label as Наименование, search_sku as бозначение FROM search WHERE search_label=\"болт\"";
             mAdapter = new SQLiteDataAdapter(search_query, mConn);
             mTable = new DataTable(); // Don't forget initialize!
             mAdapter.Fill(mTable);
@@ -158,6 +159,8 @@ namespace TK130.Pages
             if (mTable.Columns.Contains("search_label"))
             {
                 mTable.Columns["search_label"].ReadOnly = true;
+
+
             }
 
             // ----------- Fixing One Bug Of WPF's DataGrid ------------
@@ -177,7 +180,7 @@ namespace TK130.Pages
             // Next we just have to run the
             // mAdapter.Update(mTable);
             // and all changes in the table will be saved to DataBase.
-            new SQLiteCommandBuilder(mAdapter);
+            //new SQLiteCommandBuilder(mAdapter);
 
             // ------------- Binding DataTable To DataGrid -------------
             // ---------------------------------------------------------

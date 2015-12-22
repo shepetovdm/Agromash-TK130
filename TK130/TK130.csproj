@@ -180,6 +180,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <EmbeddedResource Include="catalog-db.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <None Include="Docs\1000675.wrl" />
     <None Include="Docs\1000676.wrl" />
     <None Include="Docs\1033739.wrl" />
