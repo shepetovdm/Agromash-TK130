@@ -32,6 +32,8 @@ namespace TK130.Pages
         SQLiteDataAdapter mAdapter;
         DataTable mTable;
         
+       
+        
         public Search()
         {
             InitializeComponent();
@@ -188,6 +190,11 @@ namespace TK130.Pages
             gridProducts.ItemsSource = mTable.DefaultView;
             mConn.Close();
 
+        }
+
+        private void gridProducts_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+                                                          
         }
     }
 }

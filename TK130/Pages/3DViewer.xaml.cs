@@ -19,20 +19,13 @@ namespace TK130.Pages
     /// <summary>
     /// Interaction logic for BasicPage1.xaml
     /// </summary>
-    public partial class Catalog : UserControl
+    public partial class BasicPage1 : UserControl
     {
-        public Catalog()
-        {            
-            InitializeComponent();
-                      
-        }
-
-        private void Treeitem_Click(object sender, RoutedEventArgs e)
+        public BasicPage1()
         {
+            InitializeComponent();
             string curDir = Directory.GetCurrentDirectory();
-            wbSample.Navigate(new Uri(String.Format("file:///{0}/Docs/1083869.htm", curDir)));
-            
+            wbViewer.Navigate(new Uri(String.Format("file:///{0}/Docs/1083869.htm", curDir)));
         }
-
     }
 }

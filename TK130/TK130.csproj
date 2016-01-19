@@ -99,6 +99,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Pages\3DViewer.xaml.cs">
+      <DependentUpon>3DViewer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Catalog.xaml.cs">
       <DependentUpon>Catalog.xaml</DependentUpon>
     </Compile>
@@ -122,6 +125,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Pages\AboutCompany.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\3DViewer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

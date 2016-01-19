@@ -9,10 +9,9 @@
     <Grid Style="{StaticResource ContentRoot}">
         <ScrollViewer>            
             <StackPanel MinWidth="200">
-                <TextBox Name="Search_Text"  TextChanged="TextBox_TextChanged" ToolTip="Введите наименование или чертежное обозначение детали" IsInactiveSelectionHighlightEnabled="True" AcceptsReturn="True" Tag=""/>
+                <TextBox Name="Search_Text"  TextChanged="TextBox_TextChanged" ToolTip="Введите наименование или чертежное обозначение детали" IsInactiveSelectionHighlightEnabled="True" AcceptsReturn="True" Tag="" Text="кабина"/>
                 <Button Click="Button_Click">Найти</Button>
-                <DataGrid Name="gridProducts" EnableRowVirtualization="True" ColumnWidth="*" IsReadOnly="True" EnableColumnVirtualization="True">                    
-                              
+                <DataGrid Name="gridProducts" EnableRowVirtualization="True" ColumnWidth="*" IsReadOnly="True" EnableColumnVirtualization="True" MouseDoubleClick ="gridProducts_MouseDoubleClick">                                                  
                 </DataGrid>
             </StackPanel>
         </ScrollViewer>
