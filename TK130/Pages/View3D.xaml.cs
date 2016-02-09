@@ -19,9 +19,9 @@ namespace TK130.Pages
     /// <summary>
     /// Interaction logic for BasicPage1.xaml
     /// </summary>
-    public partial class BasicPage1 : UserControl
+    public partial class View3D : UserControl
     {
-        public BasicPage1()
+        public View3D()
         {
             InitializeComponent();
             string curDir = Directory.GetCurrentDirectory();

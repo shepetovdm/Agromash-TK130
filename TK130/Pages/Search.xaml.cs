@@ -31,6 +31,9 @@ namespace TK130.Pages
         SQLiteConnection mConn;
         SQLiteDataAdapter mAdapter;
         DataTable mTable;
+
+        NavigationService nav;
+        
         
        
         
@@ -193,8 +196,8 @@ namespace TK130.Pages
         }
 
         private void gridProducts_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-                                                          
+        {            
+            this.Content = new View3D();
         }
     }
 }
